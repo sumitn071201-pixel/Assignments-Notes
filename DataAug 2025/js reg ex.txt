@@ -1,0 +1,159 @@
+sumitn071201-pixel: where are wront
+
+GitHub Copilot: It looks like you're asking where something is "wrong" in your project, but your message is unclear. Could you clarify what issue you're facing? For example, are you seeing errors, unexpected behavior, or test failures? Let me know what problem you want help with, and I can investigate and assist you.
+
+sumitn071201-pixel: corrct this
+
+GitHub Copilot: Read [](file:///c%3A/Users/IET/Desktop/250845920095/WPT/Day15/myapp/src/Calculator.js#1-1), lines 1 to 40
+
+Using "Apply Patch"
+
+
+```
+
+```
+
+
+Using "Apply Patch"
+
+
+```
+
+```
+
+
+Checked [](file:///c%3A/Users/IET/Desktop/250845920095/WPT/Day15/myapp/src/Calculator.js), 6 problems found
+
+Read [](file:///c%3A/Users/IET/Desktop/250845920095/WPT/Day15/myapp/src/Calculator.js#20-20), lines 20 to 42
+
+Using "Apply Patch"
+
+
+```
+
+```
+
+
+Checked [](file:///c%3A/Users/IET/Desktop/250845920095/WPT/Day15/myapp/src/Calculator.js), no problems found
+
+Your Calculator.js file is now corrected and free of syntax errors. The JSX is valid, and the inputs and button should work as expected. If you need further improvements or want to add more features, let me know!
+
+Made changes.
+
+sumitn071201-pixel: correct the code
+
+GitHub Copilot: Using "Apply Patch"
+
+
+```
+
+```
+Your code is now corrected! The `Radio` component will accept text input and let you choose between uppercase, lowercase, and title case using three radio buttons. The output updates automatically based on your selection. If you need further changes or want to style it, let me know!
+
+Made changes.
+
+sumitn071201-pixel: correct the code
+
+GitHub Copilot: Using "Apply Patch"
+
+
+```
+
+```
+Your code is now corrected! The `Radio` component will accept text input and provide three radio buttons for uppercase, lowercase, and title case. The output updates according to the selected option. All necessary imports and logic are included. If you need further adjustments or styling, let me know!
+
+Made changes.
+
+sumitn071201-pixel: explain the code
+
+GitHub Copilot: Here’s an explanation of your `Radio` component code:
+
+- The component imports `useState` from React to manage state.
+- The `toTitleCase` function converts a string so each word starts with an uppercase letter and the rest are lowercase.
+- The component maintains two pieces of state:
+  - `text`: the value of the text input.
+  - `caseType`: which radio button is selected (`upper`, `lower`, or `title`).
+- The `output` variable is computed based on the selected case type:
+  - If "Uppercase" is selected, it shows the text in all uppercase.
+  - If "Lowercase" is selected, it shows the text in all lowercase.
+  - If "Title Case" is selected, it shows the text in title case.
+- The UI includes:
+  - A text input for entering text.
+  - Three radio buttons for selecting the case transformation.
+  - The transformed output is displayed below.
+
+This component lets users type text and instantly see it transformed according to the selected case option.
+
+sumitn071201-pixel: most commonly used str regular expression
+
+GitHub Copilot: Here are some of the most commonly used string regular expressions in JavaScript:
+
+1. **Email validation**
+   ```
+   /^[\\w.-]+@[\\w.-]+\\.\\w{2,}$/
+   ```
+
+2. **Phone number (basic, digits only)**
+   ```
+   /^\\d{10}$/
+   ```
+
+3. **URL validation**
+   ```
+   /^(https?:\\/\\/)?([\\w.-]+)\\.([a-z\\.]{2,6})([\\/\\w .-]*)*\\/?$/
+   ```
+
+4. **Only letters**
+   ```
+   /^[A-Za-z]+$/
+   ```
+
+5. **Only numbers**
+   ```
+   /^\\d+$/
+   ```
+
+6. **Alphanumeric**
+   ```
+   /^[A-Za-z0-9]+$/
+   ```
+
+7. **Whitespace trimming**
+   ```
+   /^\\s+|\\s+$/g
+   ```
+
+8. **Password (at least one letter, one number, min 8 chars)**
+   ```
+   /^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$/
+   ```
+
+Let me know if you need a regex for a specific use case!
+
+sumitn071201-pixel: how can i write an expression on my own
+
+GitHub Copilot: To write a regular expression on your own, follow these steps:
+
+1. **Define your goal:** Decide what pattern you want to match (e.g., email, numbers, specific words).
+2. **Break down the pattern:** Identify the components (letters, digits, special characters, repetitions).
+3. **Use regex symbols:**
+   - `^` = start of string
+   - `$` = end of string
+   - `.` = any character
+   - `*` = zero or more
+   - `+` = one or more
+   - `?` = zero or one
+   - `[abc]` = any of a, b, or c
+   - `\\d` = digit
+   - `\\w` = word character (letter, digit, underscore)
+   - `\\s` = whitespace
+   - `(abc)` = group
+   - `{n,m}` = between n and m times
+
+4. **Build and test:** Combine symbols to form your expression. Test it using online tools like [regex101.com](https://regex101.com/) or in your code.
+
+**Example:**  
+To match a 5-digit number:  
+`/^\\d{5}$/`
+
+Start simple, test often, and adjust as needed! If you have a specific pattern in mind, I can help you build it.

@@ -1,0 +1,19 @@
+commands:
+1) pwd
+to view the current locations. it talks about te current directory
+
+2) whoami
+It gives you name of the user
+
+3)ls(maybe lists or list show)
+To show files of the folder
+
+4) mkdir
+to create a directory
+5)rmdir
+To remove directory
+6) ls -lt
+To list all the directories in descending order of date(oldest first)
+
+7)ls -ltr
+To list all the directories in  order of date

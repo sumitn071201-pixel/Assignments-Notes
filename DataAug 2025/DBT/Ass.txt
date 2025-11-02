@@ -1,0 +1,9 @@
+select candidateID,response,length(response) R 
+
+,length(response)-(length(replace(response ,'n','')))  R1 
+
+,length(response)-(length(replace(response ,',',''))) R2
+
+,(length(response)-(length(replace(response ,'n',''))))+(length(response)-(length(replace(response ,',','')))) R3
+
+,length(response) -(length(response)-(length(replace(response ,'n',''))))+(length(response)-(length(replace(response ,',','')))) R4 from vote_response;

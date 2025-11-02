@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+<<<<<<<< HEAD:DataAug 2025/Java/Day 12/ReflectionDemo/.project
+	<name>ReflectionDemo</name>
+========
+	<name>OrderManagementSystem</name>
+>>>>>>>> 2047228f263a60233d136c55f9ebd1ad976dbd0a:DataAug 2025/Java/Day11/OrderManagementSystem/.project
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>
