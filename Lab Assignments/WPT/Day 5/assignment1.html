@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        #formContainer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input,
+        textarea {
+            width: 300px;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            margin: 10px;
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>User Data Management</h2>
+    <div id="formContainer">
+        <label for="firstNameInput">First Name:</label>
+        <input type="text" id="firstNameInput" placeholder="Enter First Name...">
+
+        <label for="lastNameInput">Last Name:</label>
+        <input type="text" id="lastNameInput" placeholder="Enter Last Name...">
+
+        <label for="emailInput">Email:</label>
+        <input type="email" id="emailInput" placeholder="Enter Email...">
+
+        <label for="dobInput">Date of Birth:</label>
+        <input type="date" id="dobInput">
+
+        <br>
+        <button onclick="addData()">Add</button>
+    </div>
+
+    <table id="outputTable">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Date of Birth</th>
+            <th>Action</th>
+        </tr>
+    </table>
+
+    <script>
+        function addData() {
+            // Get input values
+            let firstName = document.getElementById("firstNameInput").value;
+            let lastName = document.getElementById("lastNameInput").value;
+            let email = document.getElementById("emailInput").value;
+            let dob = document.getElementById("dobInput").value;
+
+            // Simple validation (optional)
+            if (!firstName || !lastName || !email || !dob) {
+                alert("Please fill all fields before adding.");
+                return;
+            }
+
+            // Get the table and insert a new row at the end
+            let table = document.getElementById("outputTable");
+            let newRow = table.insertRow(table.rows.length);
+
+            // Insert data into cells of the new row
+            newRow.insertCell(0).innerHTML = firstName;
+            newRow.insertCell(1).innerHTML = lastName;
+            newRow.insertCell(2).innerHTML = email;
+            newRow.insertCell(3).innerHTML = dob;
+            newRow.insertCell(4).innerHTML =
+                '<button onclick="editData(this)">Edit</button> ' +
+                '<button onclick="deleteData(this)">Delete</button>';
+
+            clearInputs();
+        }
+
+        function editData(button) {
+            // Get the parent row of the clicked button
+            let row = button.parentNode.parentNode;
+
+            // Get the cells within the row
+            let firstNameCell = row.cells[0];
+            let lastNameCell = row.cells[1];
+            let emailCell = row.cells[2];
+            let dobCell = row.cells[3];
+
+            // Prompt the user to enter updated values
+            let firstNameInput = prompt("Enter the updated first name:", firstNameCell.innerHTML);
+            if (firstNameInput === null) return; // cancel check
+            let lastNameInput = prompt("Enter the updated last name:", lastNameCell.innerHTML);
+            if (lastNameInput === null) return;
+            let emailInput = prompt("Enter the updated email:", emailCell.innerHTML);
+            if (emailInput === null) return;
+            let dobInput = prompt("Enter the updated date of birth (YYYY-MM-DD):", dobCell.innerHTML);
+            if (dobInput === null) return;
+
+            // Update the cell contents with the new values
+            firstNameCell.innerHTML = firstNameInput;
+            lastNameCell.innerHTML = lastNameInput;
+            emailCell.innerHTML = emailInput;
+            dobCell.innerHTML = dobInput;
+        }
+
+        function deleteData(button) {
+            // Get the parent row of the clicked button
+            let row = button.parentNode.parentNode;
+            // Remove the row from the table
+            row.parentNode.removeChild(row);
+        }
+
+        function clearInputs() {
+            // Clear input fields
+            document.getElementById("firstNameInput").value = "";
+            document.getElementById("lastNameInput").value = "";
+            document.getElementById("emailInput").value = "";
+            document.getElementById("dobInput").value = "";
+        }
+    </script>
+</body>
+
+</html>

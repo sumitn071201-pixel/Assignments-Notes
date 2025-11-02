@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate</title>
+</head>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .box {
+      position: absolute;
+      top: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: red;
+    }
+
+    #Box {
+      left: 0;
+      background-color: black;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div id="Box" class="box"></div>
+ 
+  <script>
+    let Box = document.getElementById("Box");
+  
+    let Pos = 0;
+   
+    // Animate Box to the right
+    let Interval = setInterval(() => {
+      Pos += 5;
+      Box.style.left = Pos + 'px';
+    }, 50); // moves every 50ms
+
+   
+    // Stop both animations after 5 seconds using setTimeout
+    setTimeout(() => {
+      clearInterval(Interval);
+      console.log("Animation stopped after 5 seconds.");
+    }, 5000);
+  </script>
+
+  <script>
+    
+  </script>
+
+  <button type="button" id="b1">Start</button>
+  <button type="button" id="b2">Stop</button>
+
+</body>
+</html>
+
+</body>
+</html>

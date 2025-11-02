@@ -1,0 +1,30 @@
+hospital management system using oop objective: Design and implement cpp program 
+that models hospital management system using oop principles encapsulation abstraction inheritance and polymorphism.
+
+encapsulation: use private data members for patients and doctor details 
+provide public methods to access and update data securely
+
+absstraction:
+create an abstract class HospitalPerson with pure virtual function:
+displayDetails()
+getRole()
+
+inheritance:
+Derive two classes from HospitalPerson:
+patients:(should include) patient ID, name, age, illness, assigned doctor 
+doctor:doctor id, name, specialization, list of assigned patients
+
+polymorphism:
+use virtual functions to override 
+displayDetails()
+getRole()
+in derived classes Demonstrate runtime polymorphism using base class pointers.
+
+
+functional req:
+1. create and store data for atleast 4 patients and 2 doctors
+2. assign patients to doctors based on specialization
+3. Display details of all hospital persons using polymorphic behavior
+4. use constructors and deconstructors
+
+

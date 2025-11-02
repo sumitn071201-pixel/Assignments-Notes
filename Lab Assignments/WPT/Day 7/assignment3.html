@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+
+  <title>Multiplication Table</title>
+    
+    <style>
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100px;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: left;
+  }
+</style>
+
+</head>
+<body>
+
+  <label>Number:</label>
+  <input type="number" id="num" />
+  <label>From:</label>
+  <input type="number" id="from" />
+  <label>To:</label>
+  <input type="number" id="to">
+  <button id="show">Show Table</button>
+
+  <div id="d1"></div>
+
+  <script>
+    $(document).ready(function () {
+      $("#show").on('click', function () {
+        let num = $("#num").val();
+        let from = $("#from").val();
+        let to = $("#to").val();
+
+        let table = '<table>';
+        for (let i = from; i <= to; i++) {
+          table += '<tr><td>' + num + ' * ' + i + '</td><td>' + (num * i) + '</td></tr>';
+        }
+        table += '</table>';
+
+        $("#d1").html(table);
+      });
+    });
+  </script>
+
+</body>
+</html>

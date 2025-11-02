@@ -1,0 +1,55 @@
+You're absolutely right — Java I/O classes can feel like a maze 🧩. Let’s break them down by category, purpose, and how they relate to each other. I’ll also give you a memory trick to help keep them straight.
+
+---
+
+## 🧵 Byte vs Character Streams
+
+| Category            | Class Name             | Purpose                                 | Data Type |
+|---------------------|------------------------|------------------------------------------|-----------|
+| **Byte Stream**     | `FileInputStream`      | Reads raw bytes from a file              | Binary    |
+|                     | `FileOutputStream`     | Writes raw bytes to a file               | Binary    |
+|                     | `BufferedInputStream`  | Adds buffering to byte input             | Binary    |
+|                     | `BufferedOutputStream` | Adds buffering to byte output            | Binary    |
+|                     | `DataInputStream`      | Reads primitive data types from bytes    | Binary    |
+|                     | `DataOutputStream`     | Writes primitive data types to bytes     | Binary    |
+| **Character Stream**| `FileReader`           | Reads characters from a file             | Text      |
+|                     | `FileWriter`           | Writes characters to a file              | Text      |
+|                     | `BufferedReader`       | Adds buffering to character input        | Text      |
+|                     | `BufferedWriter`       | Adds buffering to character output       | Text      |
+
+Sources: 
+
+---
+
+## 🧠 Memory Trick: “F-B-D” and “R-W”
+
+Think of it like this:
+
+### 1. **F = File** (basic access)
+- `FileInputStream` / `FileOutputStream` → for binary files
+- `FileReader` / `FileWriter` → for text files
+
+### 2. **B = Buffered** (performance boost)
+- Wraps around File classes to make reading/writing faster
+- `BufferedInputStream` / `BufferedOutputStream`
+- `BufferedReader` / `BufferedWriter`
+
+### 3. **D = Data** (structured data)
+- `DataInputStream` / `DataOutputStream` → for reading/writing Java primitives (int, float, etc.)
+
+### 4. **R-W = Read/Write**
+- InputStream/Reader → Read
+- OutputStream/Writer → Write
+
+---
+
+## 🧪 Example Use Cases
+
+- **Reading a text file line by line** → `BufferedReader` + `FileReader`
+- **Writing a string to a file** → `BufferedWriter` + `FileWriter`
+- **Reading an image file** → `BufferedInputStream` + `FileInputStream`
+- **Saving structured data (int, float)** → `DataOutputStream` + `FileOutputStream`
+
+---
+
+Would you like a visual diagram or a cheat sheet to help you remember this even faster? I can whip one up for you!

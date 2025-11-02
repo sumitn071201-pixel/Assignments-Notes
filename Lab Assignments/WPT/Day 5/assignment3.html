@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <title>Click Counter</title>
+  <style>
+    button:disabled {
+      pointer-events: none;
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="btn" onclick="countClicks()">Click me</button>
+  <p id="countDisplay">Clicked 0 times</p>
+
+  <script>
+    let count = 0;
+    const btn = document.getElementById('btn');
+    const countDisplay = document.getElementById('countDisplay');
+
+    function countClicks() {
+      count++;
+      countDisplay.textContent = "Clicked " + count + " times";
+
+      if (count >= 10) {
+        btn.disabled = true;
+      }
+    }
+  </script>
+
+</body>
+</html>

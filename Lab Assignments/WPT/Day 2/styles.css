@@ -1,0 +1,45 @@
+
+input {
+  color: #333;
+  background-color: #f0f0f0;
+  font-style: italic;
+  border: 2px solid #999;
+}
+
+p {
+  color: rgb(202, 133, 138);
+  background-color: #194e72;
+  font-style: large;
+  border: 1px dashed rgb(201, 77, 108);
+  padding:10px;
+}
+
+select {
+  color: rgb(39, 37, 37);
+  background-color: #c5eeee;
+  font-style: oblique;
+  border: 2px dotted rgb(35, 80, 105);
+}
+
+
+.moderate {
+  color: #71c071;
+  background-color: #09471e;
+  font-style: normal;
+  border: 4px solid #041308;
+}
+
+.gaudy {
+  color: rgb(20, 62, 141);
+  background-color:rgb(192, 96, 96);
+  font-style: italic;
+  border: 4px double  rgb(221, 139, 221);
+}
+
+
+#id1 {
+  color: white;
+  background-color: black;
+  font-style: oblique;
+  border: 3px groove gray;
+}

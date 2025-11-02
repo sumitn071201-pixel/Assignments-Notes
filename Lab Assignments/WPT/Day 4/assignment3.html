@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Array</title>
+</head>
+<body>
+
+<h2>Array</h2>
+
+<input type="number" id="numberInput" placeholder="Enter a number" />
+<br />
+
+<button id="addEndBtn">Add at End</button>
+<button id="addStartBtn">Add at Start</button>
+<button id="deleteEndBtn">Delete from End</button>
+<button id="deleteStartBtn">Delete from Start</button>
+<button id="displayOddBtn">Display Odd Numbers</button>
+<button id="displayEvenBtn">Display Even Numbers</button>
+
+<div id="output">Array: []</div>
+
+<script>
+  var arr = [];
+  var input = document.getElementById('numberInput');
+  var output = document.getElementById('output');
+
+  function updateOutput(message) {
+    message = message || "";
+    output.innerText = "Array: [" + arr.join(", ") + "] " + message;
+  }
+
+  document.getElementById('addEndBtn').onclick = function() {
+    var val = Number(input.value);
+    if (!isNaN(val)) {
+      arr.push(val);
+      updateOutput();
+      input.value = "";
+    } else {
+      alert("Please enter a valid number");
+    }
+  };
+
+  document.getElementById('addStartBtn').onclick = function() {
+    var val = Number(input.value);
+    if (!isNaN(val)) {
+      arr.unshift(val);
+      updateOutput();
+      input.value = "";
+    } else {
+      alert("Please enter a valid number");
+    }
+  };
+
+  document.getElementById('deleteEndBtn').onclick = function() {
+    if (arr.length > 0) {
+      arr.pop();
+      updateOutput();
+    } else {
+      alert("Array is already empty");
+    }
+  };
+
+  document.getElementById('deleteStartBtn').onclick = function() {
+    if (arr.length > 0) {
+      arr.shift();
+      updateOutput();
+    } else {
+      alert("Array is already empty");
+    }
+  };
+
+  document.getElementById('displayOddBtn').onclick = function() {
+    var odds = arr.filter(function(n){ return n % 2 !== 0; });
+    updateOutput("| Odd Numbers: [" + odds.join(", ") + "]");
+  };
+
+  document.getElementById('displayEvenBtn').onclick = function() {
+    var evens = arr.filter(function(n){ return n % 2 === 0; });
+    updateOutput("| Even Numbers: [" + evens.join(", ") + "]");
+  };
+
+  updateOutput();
+</script>
+
+</body>
+</html>

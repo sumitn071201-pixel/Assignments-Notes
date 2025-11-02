@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Print Multi-line Text on Paragraph Click</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <script>
+    $(document).ready(function() {
+      $("#myPara").click(function() {
+        $("#myPara").html("This is line 1.<br>This is line 2.<br>This is line 3.");
+      });
+    });
+  </script>
+</head>
+<body>
+  <p id="myPara" style="cursor:pointer;">Click me to see multi-line text</p>
+</body>
+</html>

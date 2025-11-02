@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>AD</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#ad').fadeIn(1000);
+      $('#disappear').click(function () {
+        $('#ad').fadeOut(1000);
+      });
+      $('#reappear').click(function () {
+        $('#ad').fadeIn(1000);
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <div id="ad" style="
+    width: 300px;
+    height: 150px;
+    background-color: #f1c40f;
+    color: #2c3e50;
+    border: 2px solid #e67e22;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    display: none;
+    margin: 30px auto;
+    position: relative;
+    text-align: center;
+  ">
+    <h3 style="margin-top: 0;">🌟 Amazon Special Offer!</h3>
+    <p style="margin: 0;">Get 50% off on your first purchase. Limited time only!</p>
+  </div>
+
+  <button id="disappear" style="
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  ">Disappear</button>
+
+  <button id="reappear" style="
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  ">Show Again</button>
+
+</body>
+</html>

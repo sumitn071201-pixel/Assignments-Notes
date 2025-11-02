@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Ajax display data</title>
+        <style> 
+            table{
+                border-collapse: collapse;
+                width:80%;
+                margin-top:20px;
+            }
+
+            th,td{
+                border:1px solid black;
+                padding:8px;
+                text-align:left;
+            }
+
+            th{
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <button onclick="showData()">Show</button>
+        <table id="t1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                </tr>
+            </thead>
+            <tbody id="tb">
+
+            </tbody>
+        </table>
+
+        <script>
+            function showData(){
+                let request=new XMLHttpRequest();
+                request.open("GET","https://jsonplaceholder.typicode.com/posts");
+                request.send();
+
+                request.onload=function(){
+                    if(this.status == 200){
+                        const data=JSON.parse(this.responseText);
+                        let tablecontent = " ";
+
+                        for (let i=0;i<data.length;i++){
+                            tablecontent += `
+                            <tr>
+                                <td>${data[i].id}</td>
+                                <td>${data[i].title}</td>
+                                </tr>
+                                `;
+                        }
+                        document.getElementById("tb").innerHTML = tablecontent;
+                    }
+                    else{
+                        alert("Error fetching data!");
+                    }
+                };
+
+            }
+        </script>
+    </body>
+</html>

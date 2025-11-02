@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JSON Example</h2>
+
+First Name: <input id="firstName"><br><br>
+Last Name: <input id="lastName"><br><br>
+Age: <input id="age" type="number"><br><br>
+<button onclick="processUser()">Process User</button>
+
+<h3>JSON String:</h3>
+<pre id="jsonString"></pre>
+<h3>Parsed Object Data (Table):</h3>
+<div id="output"></div>
+
+<script>
+function processUser() {
+  var f = document.getElementById('firstName').value.trim();
+  var l = document.getElementById('lastName').value.trim();
+  var a = document.getElementById('age').value.trim();
+  if (!f || !l || !a) {
+    alert('Please fill all fields');
+    return;
+  }
+
+  const myObj = {
+    firstName: f,
+    lastName: l,
+    age: parseInt(a)
+  };
+
+  const myJSON = JSON.stringify(myObj);
+  document.getElementById('jsonString').innerHTML = myJSON;
+
+  const parsedObj = JSON.parse(myJSON);
+
+  var tableHTML = "<table border='1' cellpadding='5'>";
+  tableHTML += "<tr><th>Key</th><th>Value</th></tr>";
+  tableHTML += "<tr><td>First Name</td><td>" + parsedObj.firstName + "</td></tr>";
+  tableHTML += "<tr><td>Last Name</td><td>" + parsedObj.lastName + "</td></tr>";
+  tableHTML += "<tr><td>Age</td><td>" + parsedObj.age + "</td></tr>";
+  tableHTML += "</table>";
+
+  document.getElementById('output').innerHTML = tableHTML;
+
+  document.getElementById('firstName').value = '';
+  document.getElementById('lastName').value = '';
+  document.getElementById('age').value = '';
+}
+</script>
+
+</body>
+</html>

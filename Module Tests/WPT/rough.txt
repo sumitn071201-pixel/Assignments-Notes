@@ -1,0 +1,27 @@
+Q1
+create index.html
+display company name in h1 tag
+display current date and time (running ) in iframe size 200*200
+
+
+Take 2 hyperlink using unorder list
+1. login
+2. animate
+
+on click login button open login \.html page
+accept username and password on click of login button perform developer define validations login form need to display using table tag
+
+1. data entered or not
+2. password length between 8 10 char
+
+on successful validation redirect to animate.html page in animate.html
+
+with the help of jquery perform animation of div from left to write and change in size on click of startand stop buton
+
+
+
+
+
+
+
+

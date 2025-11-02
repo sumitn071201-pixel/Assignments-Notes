@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajax Display Data with Parameter</title>
+    <style> 
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+
+    <label>Enter ID: </label>
+    <input type="text" id="id1"/>
+    <button onclick="showData()">Show</button>
+
+    <table id="t1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody id="tb"></tbody>
+    </table>
+
+    <script>
+        function showData() {
+            const id = document.getElementById("id1").value.trim();
+
+            if (!id || id < 1 || id > 100) {
+                alert("Please enter a valid ID between 1 and 100");
+                return;
+            }
+
+            const request = new XMLHttpRequest();
+            request.open("GET", `https://jsonplaceholder.typicode.com/posts/${id}`);
+            request.send();
+
+            request.onload = function() {
+                if (this.status === 200) {
+                    const data = JSON.parse(this.responseText);
+
+                    document.getElementById("t1").style.display = "table";
+                    document.getElementById("tb").innerHTML = `
+                        <tr>
+                            <td>${data.id}</td>
+                            <td>${data.title}</td>
+                        </tr>
+                    `;
+                } else {
+                    alert("Error fetching data!");
+                }
+            };
+
+            request.onerror = function() {
+                alert("Network error");
+            };
+        }
+    </script>
+
+</body>
+</html>

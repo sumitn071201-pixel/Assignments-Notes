@@ -1,0 +1,60 @@
+<html>
+<body onload="myMove()" >
+<div id="d1" style="background-color:indigo; width: 50px; height:50px ; position:absolute; top:0;left:0"></div>
+<div id="d2" style="background-color:crimson; width: 50px; height:50px ; position:absolute; top:0;right:0"></div>
+
+</body>
+<script>
+
+function myMove(){
+    animatebox1(function(){
+        console.log("animatebox 1 completed! ");
+    });
+
+    animatebox2(function(){
+        console.log("animatebox2 is completed!");
+    })
+
+}
+
+function animatebox1(callback){
+
+const elem=document.getElementById("d1")
+    let pos=0;
+    let id=setInterval(frame,5);
+
+    function frame(){
+    if(pos>=350){
+        clearInterval(id);
+        callback();
+    }
+    else{
+        pos++;
+        elem.style.top = pos + "px";
+        elem.style.left = pos + "px";
+    }
+}
+}
+
+function animatebox2(callback){
+    const elem=document.getElementById("d2")
+        let pos=0;
+        let id=setInterval(frame,5);
+
+        function frame(){
+            if(pos>=350){
+                clearInterval(id);
+                callback();
+            }
+            else{
+                pos++;
+                elem.style.top = pos + "px";
+                elem.style.right = pos + "px";
+            }
+        }
+    
+}
+
+</script>
+</html>
+

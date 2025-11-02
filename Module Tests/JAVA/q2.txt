@@ -1,0 +1,1 @@
+//Design Java Application to Accept strings from the user and store it in a arraylist. Find all strings which start with A, store them in list2(Note use filter function to find the strings) write all strings from list2 in a file data.txt, one string on each line

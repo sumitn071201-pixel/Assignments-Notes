@@ -1,0 +1,23 @@
+wap to transpose(pehle array ka horizontal array ana chahiye dusre array ka vertical and visa versa
+)
+
+1 2 3
+4 5 6
+7 8 9
+
+1 4 7
+2 5 8
+3 6 9
+
+
+    int a[3][3];
+
+    for(int i=0; i<=3;i++)
+    {
+        for(int j=0; j<=3;j++)
+        {
+            cout<<;
+        }
+    }
+
+}

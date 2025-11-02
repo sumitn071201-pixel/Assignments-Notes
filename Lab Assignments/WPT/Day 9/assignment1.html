@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title> </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+         <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $.get("https://jsonplaceholder.typicode.com/posts",function(data,status){
+                        alert("Title :" + data[0].title  +"\nstatus:"+status);
+                    });
+                });
+            })
+            </script>
+    </head>
+    <body>
+        
+        <button>click</button>
+       
+        
+    </body>
+</html>

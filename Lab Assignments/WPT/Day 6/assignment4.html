@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Create Username Dynamically</h2>
+
+First Name: <input id="firstName"><br><br>
+Last Name: <input id="lastName"><br><br>
+Age: <input id="age" type="number"><br><br>
+<button onclick="processUser()">Create Username</button>
+
+<h3>Username:</h3>
+<div id="username"></div>
+
+<script>
+function processUser() {
+  var f = document.getElementById('firstName').value.trim();
+  var l = document.getElementById('lastName').value.trim();
+  var a = document.getElementById('age').value.trim();
+  
+  if (!f || !l || !a) {
+    alert('Please fill all fields');
+    return;
+  }
+
+  var firstTwo = f.substring(0, 2).toLowerCase();
+  var lastTwo = l.substring(l.length - 2).toLowerCase();
+  
+  var username = firstTwo + lastTwo + a;
+
+  document.getElementById('username').innerHTML = username;
+
+}
+</script>
+
+</body>
+</html>

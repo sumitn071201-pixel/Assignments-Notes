@@ -1,0 +1,20 @@
+Home.js Function Component -- message Home Page
+AboutUs.js Class Component -- Message About AboutUs
+Couter.jsLoadData.js - Function Component
+with route - concepts
+Display abovve components ar per click Default Home page need to Deisplay
+
+Take 1 more route - counter
+on click on that call , call counter.jsin that counter- take 2 buttons increment and decrement write a code on button click increase and decrease
+write a code on button click incease/ decreasecounte with help of useState useCallback hook (use prev)
+
+LoadData.jswith help of the axios get method load data from -
+
+htps/://jsonplaceholder.typeicode.com/posts
+and display error if data not loaded
+Display error if data not loadeddisplay data from json data in unordered list format in same page
+
+
+
+
+

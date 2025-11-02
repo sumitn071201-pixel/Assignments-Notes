@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Animation</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#animate-btn').on('click', function() {
+        let quote = $('#quote');
+        let container = $('#quote-container');
+        let containerWidth = container.width();
+        let quoteWidth = quote.width();
+
+        quote.css('left', '0px');
+
+        function scrollRightToLeft(count) {
+          if (count > 0) {
+            quote.animate({ left: containerWidth - quoteWidth }, 3000, 'linear', function() {
+              scrollLeftToRight(count);
+            });
+          } else {
+            scrollLeftToRight(0, true);
+          }
+        }
+
+        function scrollLeftToRight(count, finalRun = false) {
+          quote.animate({ left: 0 }, 3000, 'linear', function() {
+            if (!finalRun && count > 1) {
+              scrollRightToLeft(count - 1);
+            }
+          });
+        }
+
+        scrollRightToLeft(4);
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <div id="quote-container" style="
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 80px;
+    border: 1px solid #000;
+    background-color: #fefefe;
+  ">
+    <p id="quote" style="
+      position: absolute;
+      white-space: nowrap;
+      font-family: Georgia, serif;
+      font-size: 24px;
+      color: #2c3e50;
+      line-height: 80px;
+      margin: 0;
+      left: 0;
+    ">
+      "The only way to do great work is to love what you do." - Steve Jobs
+    </p>
+  </div>
+
+  <button id="animate-btn" style="
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;">
+    Animate Quote
+  </button>
+
+</body>
+</html>

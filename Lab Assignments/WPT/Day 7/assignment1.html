@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("#btn1").click(function(){
+      $("#test1").html("<b>Hello</b>");
+    });
+
+    $("#btn2").click(function(){
+      $("#test2").html("<i>Hello</i>");
+    });
+
+    $("#btn3").click(function(){
+      $("#test3").html("<u>Hello</u>");
+    });
+  });
+  </script>
+</head>
+<body>
+
+  <p>Hello</p>
+  <p id="test1"></p>
+  <p id="test2"></p>
+  <p id="test3"></p>
+
+  <button id="btn1">Show Bold Hello</button>
+  <button id="btn2">Show Italics Hello</button>
+  <button id="btn3">Show Underline Hello</button>
+
+</body>
+</html>

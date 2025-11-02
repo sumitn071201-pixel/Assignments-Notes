@@ -1,0 +1,57 @@
+<html>
+    <body>
+        <script>
+            function display(result){
+    document.write("Result : "+result);
+}
+
+function add(n1,n2,callback){
+    callback(n1 + n2);
+}
+
+function sub(n1,n2,callback){
+    callback(n1 - n2);
+}
+
+function mult(n1,n2,callback){
+    callback(n1 * n2);
+}
+
+function div(n1,n2,callback){
+    if(n2===0){
+        callback("can't divide by 0");
+    }
+    else{
+        callback(n1 / n2);
+    }
+}
+
+function calculate(n1,n2,operationcallback){
+    operationcallback(n1,n2,display);
+}
+
+let n1=parseFloat(prompt("enter first no:"));
+let n2=parseFloat(prompt("enter second no:"));
+let op=prompt("choose operation:add,sub,mult,div");
+
+if(op==="add"){
+    calculate(n1,n2,add);
+}
+else if(op==="sub"){
+    calculate(n1,n2,sub);
+}
+
+else if(op==="mult"){
+    calculate(n1,n2,mul);
+}
+
+else if(op==="div"){
+    calculate(n1,n2,div);
+}
+else{
+    document.write("Invalid Operation")
+}
+
+        </script>
+    </body>
+</html>

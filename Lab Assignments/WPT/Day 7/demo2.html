@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>-->
+
+ <script src="jquery-3.7.1.min.js"></script>
+
+ <script>
+   $(document).ready(function(){
+      $("#div1").mouseover(function(){
+        $("#div1").css("background-color", "cyan");
+      });
+      $("#div1").mouseout(function(){
+        $("#div1").css("background-color", "blue");
+      });
+    });
+ </script>
+ </head>
+<body>
+    <div id="div1" style="background-color: blue; height:450px;width:450px"></div> 
+</body>
+</html>

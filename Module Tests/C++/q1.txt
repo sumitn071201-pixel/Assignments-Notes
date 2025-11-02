@@ -1,0 +1,29 @@
+Class 1=different types of vehicles
+class 2= rental transaction
+class 3= customer interaction
+
+
+abstraction 
+diamond inheritance 
+
+        vehicle (base class)
+    
+virtual functions 
+calculateRentalCost(int days)
+displayDetails()
+getType()
+
+inheritance 
+
+
+                              vehicle
+                             base class
+
+                 car                        bike
+             child class                  child class
+
+attributes: model               attributes: model
+            seat capacity                   engine capacity
+            daily rate                      daily rate
+            
+            

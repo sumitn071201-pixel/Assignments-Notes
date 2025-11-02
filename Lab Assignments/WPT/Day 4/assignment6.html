@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Data Entry</title>
+</head>
+<body>
+
+  <h2>Employee Data Form</h2>
+
+  <form id="employeeForm">
+    <label>First Name: <input type="text" id="firstName" /></label><br /><br />
+    <label>Last Name: <input type="text" id="lastName" /></label><br /><br />
+    <label>Email: <input type="email" id="email" /></label><br /><br />
+    <label>Date of Birth: <input type="date" id="dob" /></label><br /><br />
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="errorMsg"></div>
+
+  <h3>Employee Data</h3>
+  <table border="1" cellpadding="5" cellspacing="0" id="dataTable">
+    <thead>
+      <tr>
+        <th>First Name</th><th>Last Name</th><th>Email</th><th>Date of Birth</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+<script>
+  const form = document.getElementById('employeeForm');
+  const errorMsg = document.getElementById('errorMsg');
+  const dataTable = document.getElementById('dataTable').getElementsByTagName('tbody')[0];
+  const table = document.getElementById('dataTable');
+
+  table.style.visibility = 'hidden';
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    const firstName = document.getElementById('firstName').value.trim();
+    const lastName = document.getElementById('lastName').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const dob = document.getElementById('dob').value;
+
+    if (!firstName || !lastName || !email || !dob) {
+      errorMsg.textContent = "Please fill in all fields.";
+      table.style.visibility = 'hidden'; 
+      return;
+    }
+
+    errorMsg.textContent = "";
+
+    const row = dataTable.insertRow();
+    row.insertCell(0).textContent = firstName;
+    row.insertCell(1).textContent = lastName;
+    row.insertCell(2).textContent = email;
+    row.insertCell(3).textContent = dob;
+
+
+    table.style.visibility = 'visible';
+    form.reset();
+  });
+</script>
+
+</body>
+</html>

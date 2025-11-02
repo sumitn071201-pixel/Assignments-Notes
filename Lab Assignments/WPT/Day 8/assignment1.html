@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <button onclick=showData()>show</button>
+        <script>
+            function showData(){
+                let request = new XMLHttpRequest();
+                request.open("GET","https://fake-json-api.mock.beeceptor.com/users");
+                request.send();
+                request.onload = function()
+                {
+                    if(this.status == 200)
+                {
+                    document.write(this.responseText);
+                }
+                }
+
+            }
+
+
+        </script>
+    </body>
+</html>

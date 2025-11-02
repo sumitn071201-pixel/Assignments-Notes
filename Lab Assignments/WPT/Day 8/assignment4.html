@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Html Validations</title>
+    </head>
+<body>
+Enter a Name <input type="text" required minlength="2" maxlength="16" id="t1">
+
+    <button onclick="validate()">Display</button>
+
+    <p id="p1">Data </p>
+
+<script>
+
+    function display() {
+
+        let d = document.getElementById("t1").value;
+
+        if (d.trim() != "") {
+            document.getElementById("p1").innerText =
+                document.getElementById("t1").value;
+        } else {
+            document.getElementById("p1").innerText = " ";
+        }
+    }
+
+    function validate() {
+
+        let ele = document.getElementById("t1");
+
+        console.log(ele.checkValidity())
+
+        if (ele.checkValidity()) {
+            document.getElementById("p1").innerText =
+                document.getElementById("t1").value;
+        } else {
+            document.getElementById("p1").innerText =
+                ele.validationMessage
+        }
+    }
+
+</script>
+</body>
+</html>

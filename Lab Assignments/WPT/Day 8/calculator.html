@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background-color: #e6f0ff;  /* Soft pastel blue */
+    }
+
+    .calculator {
+      border: 1px solid #999;
+      padding: 15px 20px;
+      background: #f9fbff;
+      border-radius: 5px;
+      box-shadow: 1px 1px 8px #bbb;
+      text-align: center;
+    }
+
+    #display {
+      width: 210px;
+      height: 35px;
+      font-size: 20px;
+      margin-bottom: 12px;
+      padding: 5px 10px;
+      text-align: right;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #fdfdfd;
+    }
+
+    button {
+      width: 48px;
+      height: 40px;
+      font-size: 18px;
+      margin: 3px 3px 6px 3px;
+      border: 1px solid #bbb;
+      border-radius: 4px;
+      background: #eee;
+      cursor: pointer;
+      color: #333;
+      transition: background-color 0.2s ease;
+    }
+    button:hover {
+      background-color: #ddd;
+    }
+
+    button.op {
+      font-weight: bold;
+    }
+
+    #cancel, #equals {
+      width: 100px;
+      margin: 6px 3px 0 3px;
+      background: #ddd;
+      font-weight: bold;
+    }
+    #cancel:hover, #equals:hover {
+      background-color: #ccc;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <div class="calculator">
+    <input type="text" id="display" disabled />
+
+    <br/>
+
+    <button class="btn" data-val="7">7</button>
+    <button class="btn" data-val="8">8</button>
+    <button class="btn" data-val="9">9</button>
+    <button class="btn op" data-val="+">+</button>
+    <br/>
+
+    <button class="btn" data-val="4">4</button>
+    <button class="btn" data-val="5">5</button>
+    <button class="btn" data-val="6">6</button>
+    <button class="btn op" data-val="-">-</button>
+    <br/>
+
+    <button class="btn" data-val="1">1</button>
+    <button class="btn" data-val="2">2</button>
+    <button class="btn" data-val="3">3</button>
+    <button class="btn op" data-val="*">*</button>
+    <br/>
+
+    <button class="btn" data-val="0">0</button>
+    <button class="btn" data-val=".">.</button>
+    <button class="btn op" data-val="/">/</button>
+    <br/>
+
+    <button id="cancel">⌫</button>  <!-- Backspace -->
+    <button id="equals">=</button>
+  </div>
+
+  <script>
+    $(document).ready(function() {
+      let expr = "";
+
+      $(".btn").click(function() {
+        expr += $(this).data("val");
+        $("#display").val(expr);
+      });
+
+      $("#cancel").click(function() {
+        expr = expr.slice(0, -1); // remove last character
+        $("#display").val(expr);
+      });
+
+      $("#equals").click(function() {
+        try {
+          const result = eval(expr);
+          $("#display").val(result);
+          expr = result.toString();
+        } catch {
+          $("#display").val("Error");
+          expr = "";
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

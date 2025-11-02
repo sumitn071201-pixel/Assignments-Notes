@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>-->
+
+ <script src="jquery-3.7.1.min.js"></script>
+ <script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            let data=$("#ta1").val();
+            document.write(data.length+"<br></br>");
+            let l=data.length;
+            let c=l/2;
+           
+            document.write(data.slice(0,c)+"<br></br>");
+            document.write(data.slice(c+1,l));
+        })
+    });
+ </script>
+</head>
+ <body>
+    Enter data
+    <textarea id="ta1" cols="5",rows="5"></textarea>
+    <button>convert</button>
+ </body>
+</html>

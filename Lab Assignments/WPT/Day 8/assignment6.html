@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AddClass RemoveClass ToggleClass example</title>
+    <style>
+        /* Heading styles */
+        .redText {
+            color: red;
+            font-weight: bold;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+
+        /* Button styles */
+        button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 16px;
+            margin: 5px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        
+        button:active {
+            background-color: #3e8e41;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <h2 id="h1">Hello, Apply CSS Classes</h2>
+
+    <button id="b1">Add Red Text</button>
+    <button id="b2">Remove Red Text</button>
+    <button id="b3">Toggle Underline</button>
+
+    <script>
+        $(document).ready(function(){
+            $("#b1").click(function(){
+                $("#h1").addClass("redText");
+            });
+
+            $("#b2").click(function(){
+                $("#h1").removeClass("redText");
+            });
+
+            $("#b3").click(function(){
+                $("#h1").toggleClass("underline");
+            });
+        });
+    </script>
+
+</body>
+</html>

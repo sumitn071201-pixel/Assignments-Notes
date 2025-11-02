@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Exceptions</title>
+    </head>
+    <body>
+        <p id="p1"></p>
+        <script>
+            document.getElementById("p1").innerHtml = "data";
+
+            try{
+                data = "Content";
+                //let data;
+                document.getElementById("p1").innerHTML = data;
+            }
+            catch(err){
+                document.getElementById("p1").innerHTML="Something went wrong";
+            }
+            finally{
+                document.write("Final block");
+            }
+        </script>
+
+    </body>
+</html>
+
