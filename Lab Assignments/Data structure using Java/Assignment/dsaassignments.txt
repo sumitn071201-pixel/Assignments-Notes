@@ -1,0 +1,624 @@
+Create a single dimensional array and do the following 
+1. Find addition of digits of all every individual number in the array 
+2. Find factorial of only prime  numbers in the array 
+3. Find maximum prime number in the array 
+4. Create a copy of array, but while copying data into another array, if the number is 
+prime and <5 then copy the reverse of the number, otherwise copy number as it is 
+5. Create a array of size 20, accept string from user and store it in the array, in such a 
+fashion that all the string whose 2nd character is same should be together in the array 
+In the following array if user adds bat, then this string should get added after xamp, if 
+user adds linux, then add at the end.
+
+import java.util.Scanner;
+
+public class SingleDimensionalArrayTasks {
+
+    // Utility: check prime
+    static boolean isPrime(int n) {
+        if (n <= 1) return false;
+        for (int i = 2; i * i <= n; i++) if (n % i == 0) return false;
+        return true;
+    }
+
+    // 1. Sum of digits of each element
+    static void sumDigitsEach(int[] arr) {
+        System.out.println("Sum of digits of each element:");
+        for (int x : arr) {
+            int sum = 0, t = Math.abs(x);
+            while (t > 0) { sum += t % 10; t /= 10; }
+            System.out.println(x + " -> " + sum);
+        }
+    }
+
+    // 2. Factorial of prime numbers
+    static void factorialOfPrimes(int[] arr) {
+        System.out.println("Factorial of prime numbers:");
+        for (int x : arr) {
+            if (isPrime(x)) {
+                int f = 1;
+                for (int i = 2; i <= x; i++) f *= i;
+                System.out.println(x + " -> " + f);
+            }
+        }
+    }
+
+    // 3. Maximum prime number
+    static int maxPrime(int[] arr) {
+        int maxP = -1;
+        for (int x : arr) if (isPrime(x) && x > maxP) maxP = x;
+        return maxP;
+    }
+
+    // 4. Copy array with special rule
+    static int[] copyArraySpecial(int[] arr) {
+        int[] copy = new int[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            if (isPrime(arr[i]) && arr[i] < 5) {
+                int r = 0, t = arr[i];
+                while (t > 0) { r = r * 10 + (t % 10); t /= 10; }
+                copy[i] = r;
+            } else copy[i] = arr[i];
+        }
+        return copy;
+    }
+
+    // 5. String array grouping by 2nd character
+    static void insertBySecondCharGrouping(String[] arr, int currentSize, String s) {
+        char key = (s.length() >= 2) ? s.charAt(1) : '\0';
+        int lastIndex = -1;
+        for (int i = 0; i < currentSize; i++) {
+            char k2 = (arr[i].length() >= 2) ? arr[i].charAt(1) : '\0';
+            if (k2 == key) lastIndex = i;
+        }
+        int pos = (lastIndex != -1) ? lastIndex + 1 : currentSize;
+        for (int i = currentSize; i > pos; i--) arr[i] = arr[i - 1];
+        arr[pos] = s;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Example array
+        int[] arr = {12, 7, 5, 19, 4, 2, 23};
+
+        sumDigitsEach(arr);
+        factorialOfPrimes(arr);
+        System.out.println("Maximum prime number: " + maxPrime(arr));
+
+        int[] copy = copyArraySpecial(arr);
+        System.out.print("Copied array: ");
+        for (int x : copy) System.out.print(x + " ");
+        System.out.println();
+
+        // String array of size 20
+        String[] sarr = new String[20];
+        int size = 0;
+
+        // Seed values
+        sarr[size++] = "xamp";
+        sarr[size++] = "test";
+        sarr[size++] = "apple";
+
+        // Add "bat" (should go after "xamp")
+        insertBySecondCharGrouping(sarr, size, "bat");
+        size++;
+        // Add "linux" (no group, goes at end)
+        insertBySecondCharGrouping(sarr, size, "linux");
+        size++;
+
+        System.out.println("String array after inserts:");
+        for (int i = 0; i < size; i++) System.out.print(sarr[i] + " ");
+        System.out.println();
+
+        sc.close();
+    }
+}
+*****************************************************************
+Create 2D array 
+1. Reverse every row in the array 
+2. Find maximum odd number in every row 
+3. Find average for each row and column and find addition on all row averages and all 
+column averages
+import java.util.Scanner;
+
+public class TwoDArrayTasks {
+
+    // 1. Reverse every row
+    static void reverseEachRow(int[][] mat) {
+        for (int r = 0; r < mat.length; r++) {
+            int i = 0, j = mat[r].length - 1;
+            while (i < j) {
+                int tmp = mat[r][i];
+                mat[r][i] = mat[r][j];
+                mat[r][j] = tmp;
+                i++; j--;
+            }
+        }
+    }
+
+    // 2. Find maximum odd number in each row
+    static int[] maxOddEachRow(int[][] mat) {
+        int[] res = new int[mat.length];
+        for (int r = 0; r < mat.length; r++) {
+            int maxOdd = -1;
+            for (int v : mat[r]) {
+                if (v % 2 != 0 && v > maxOdd) maxOdd = v;
+            }
+            res[r] = maxOdd;
+        }
+        return res;
+    }
+
+    // 3. Find averages for rows and columns
+    static double[] averageEachRow(int[][] mat) {
+        double[] avg = new double[mat.length];
+        for (int r = 0; r < mat.length; r++) {
+            int sum = 0;
+            for (int v : mat[r]) sum += v;
+            avg[r] = (double) sum / mat[r].length;
+        }
+        return avg;
+    }
+
+    static double[] averageEachColumn(int[][] mat) {
+        int cols = mat[0].length;
+        double[] avg = new double[cols];
+        for (int c = 0; c < cols; c++) {
+            int sum = 0;
+            for (int r = 0; r < mat.length; r++) sum += mat[r][c];
+            avg[c] = (double) sum / mat.length;
+        }
+        return avg;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Example: 3x4 matrix
+        int[][] mat = {
+            {1, 3, 5, 2},
+            {8, 7, 6, 4},
+            {9, 11, 13, 10}
+        };
+
+        System.out.println("Original matrix:");
+        for (int[] row : mat) {
+            for (int v : row) System.out.print(v + " ");
+            System.out.println();
+        }
+
+        // 1. Reverse every row
+        reverseEachRow(mat);
+        System.out.println("\nMatrix after reversing each row:");
+        for (int[] row : mat) {
+            for (int v : row) System.out.print(v + " ");
+            System.out.println();
+        }
+
+        // 2. Maximum odd number in each row
+        int[] maxOdds = maxOddEachRow(mat);
+        System.out.println("\nMaximum odd number in each row:");
+        for (int i = 0; i < maxOdds.length; i++) {
+            System.out.println("Row " + i + ": " + maxOdds[i]);
+        }
+
+        // 3. Averages
+        double[] rowAvg = averageEachRow(mat);
+        double[] colAvg = averageEachColumn(mat);
+
+        double sumRowAvg = 0, sumColAvg = 0;
+        for (double d : rowAvg) sumRowAvg += d;
+        for (double d : colAvg) sumColAvg += d;
+
+        System.out.println("\nRow averages:");
+        for (int i = 0; i < rowAvg.length; i++) System.out.println("Row " + i + ": " + rowAvg[i]);
+
+        System.out.println("\nColumn averages:");
+        for (int i = 0; i < colAvg.length; i++) System.out.println("Column " + i + ": " + colAvg[i]);
+
+        System.out.println("\nSum of row averages: " + sumRowAvg);
+        System.out.println("Sum of column averages: " + sumColAvg);
+
+        sc.close();
+    }
+}
+*************************************************************
+ Create a class employee to store empid, ename,salary, create a array of employee 
+objects of size 20; add 15 employee objects in it. And sort it based on salary using 
+bubble sort,  
+So 5 locations are free,  
+Accept 5 more elements from user and add these elements in the array, by using 
+insertion sort. 
+2. Create an array of Strings, sort it by using merge and quick sort 
+3. Create an array of employees, sort it by using heap sort and  quick sort 
+4. Create an array size 10 of integers, add 8 values in it , sort the numbers, after sorting 
+accept 2 more numbers from user one by one and add it in the array, using insertion 
+sort.
+import java.util.Scanner;
+
+class Employee {
+    int empId;
+    String name;
+    int salary;
+
+    Employee(int empId, String name, int salary) {
+        this.empId = empId;
+        this.name = name;
+        this.salary = salary;
+    }
+
+    public String toString() {
+        return empId + " | " + name + " | " + salary;
+    }
+}
+
+public class SortingAssignments {
+
+    // Bubble sort employees by salary
+    static void bubbleSortEmployees(Employee[] arr, int n) {
+        for (int pass = 0; pass < n - 1; pass++) {
+            for (int i = 0; i < n - 1 - pass; i++) {
+                if (arr[i].salary > arr[i + 1].salary) {
+                    Employee temp = arr[i];
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = temp;
+                }
+            }
+        }
+    }
+
+    // Insertion sort insert employee into sorted array
+    static int insertEmployee(Employee[] arr, int size, Employee e) {
+        int i = size - 1;
+        while (i >= 0 && arr[i].salary > e.salary) {
+            arr[i + 1] = arr[i];
+            i--;
+        }
+        arr[i + 1] = e;
+        return size + 1;
+    }
+
+    // Merge sort for Strings
+    static void mergeSortStrings(String[] arr, int l, int r) {
+        if (l >= r) return;
+        int m = (l + r) / 2;
+        mergeSortStrings(arr, l, m);
+        mergeSortStrings(arr, m + 1, r);
+        mergeStrings(arr, l, m, r);
+    }
+    static void mergeStrings(String[] arr, int l, int m, int r) {
+        int n1 = m - l + 1, n2 = r - m;
+        String[] L = new String[n1], R = new String[n2];
+        for (int i = 0; i < n1; i++) L[i] = arr[l + i];
+        for (int j = 0; j < n2; j++) R[j] = arr[m + 1 + j];
+        int i = 0, j = 0, k = l;
+        while (i < n1 && j < n2) {
+            if (L[i].compareTo(R[j]) <= 0) arr[k++] = L[i++];
+            else arr[k++] = R[j++];
+        }
+        while (i < n1) arr[k++] = L[i++];
+        while (j < n2) arr[k++] = R[j++];
+    }
+
+    // Quick sort for Strings
+    static void quickSortStrings(String[] arr, int l, int r) {
+        if (l >= r) return;
+        int p = partitionStrings(arr, l, r);
+        quickSortStrings(arr, l, p - 1);
+        quickSortStrings(arr, p + 1, r);
+    }
+    static int partitionStrings(String[] arr, int l, int r) {
+        String pivot = arr[r];
+        int i = l - 1;
+        for (int j = l; j < r; j++) {
+            if (arr[j].compareTo(pivot) <= 0) {
+                i++;
+                String temp = arr[i]; arr[i] = arr[j]; arr[j] = temp;
+            }
+        }
+        String temp = arr[i + 1]; arr[i + 1] = arr[r]; arr[r] = temp;
+        return i + 1;
+    }
+
+    // Heap sort employees by salary
+    static void heapSortEmployees(Employee[] arr, int n) {
+        for (int i = n / 2 - 1; i >= 0; i--) heapify(arr, n, i);
+        for (int i = n - 1; i > 0; i--) {
+            Employee temp = arr[0]; arr[0] = arr[i]; arr[i] = temp;
+            heapify(arr, i, 0);
+        }
+    }
+    static void heapify(Employee[] arr, int n, int i) {
+        int largest = i;
+        int l = 2 * i + 1, r = 2 * i + 2;
+        if (l < n && arr[l].salary > arr[largest].salary) largest = l;
+        if (r < n && arr[r].salary > arr[largest].salary) largest = r;
+        if (largest != i) {
+            Employee temp = arr[i]; arr[i] = arr[largest]; arr[largest] = temp;
+            heapify(arr, n, largest);
+        }
+    }
+
+    // Quick sort employees by salary
+    static void quickSortEmployees(Employee[] arr, int l, int r) {
+        if (l >= r) return;
+        int p = partitionEmployees(arr, l, r);
+        quickSortEmployees(arr, l, p - 1);
+        quickSortEmployees(arr, p + 1, r);
+    }
+    static int partitionEmployees(Employee[] arr, int l, int r) {
+        int pivot = arr[r].salary;
+        int i = l - 1;
+        for (int j = l; j < r; j++) {
+            if (arr[j].salary <= pivot) {
+                i++;
+                Employee temp = arr[i]; arr[i] = arr[j]; arr[j] = temp;
+            }
+        }
+        Employee temp = arr[i + 1]; arr[i + 1] = arr[r]; arr[r] = temp;
+        return i + 1;
+    }
+
+    // Bubble sort integers
+    static void bubbleSortInt(int[] arr, int n) {
+        for (int pass = 0; pass < n - 1; pass++) {
+            for (int i = 0; i < n - 1 - pass; i++) {
+                if (arr[i] > arr[i + 1]) {
+                    int temp = arr[i]; arr[i] = arr[i + 1]; arr[i + 1] = temp;
+                }
+            }
+        }
+    }
+
+    // Insertion sort insert integer
+    static int insertInt(int[] arr, int size, int val) {
+        int i = size - 1;
+        while (i >= 0 && arr[i] > val) {
+            arr[i + 1] = arr[i];
+            i--;
+        }
+        arr[i + 1] = val;
+        return size + 1;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Part 1: Employee bubble + insertion sort
+        Employee[] employees = new Employee[20];
+        int size = 0;
+        // Add 15 employees
+        for (int i = 0; i < 15; i++) {
+            employees[size++] = new Employee(100 + i, "Emp" + i, (int)(Math.random() * 9000 + 1000));
+        }
+        bubbleSortEmployees(employees, size);
+        System.out.println("Employees after bubble sort:");
+        for (int i = 0; i < size; i++) System.out.println(employees[i]);
+
+        // Accept 5 more employees and insert using insertion sort
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Enter empId, name, salary:");
+            int id = sc.nextInt();
+            String nm = sc.next();
+            int sal = sc.nextInt();
+            size = insertEmployee(employees, size, new Employee(id, nm, sal));
+        }
+        System.out.println("Employees after insertion sort:");
+        for (int i = 0; i < size; i++) System.out.println(employees[i]);
+
+        // Part 2: Strings merge and quick sort
+        String[] words = {"delta", "alpha", "echo", "bravo", "charlie"};
+        mergeSortStrings(words, 0, words.length - 1);
+        System.out.println("Strings after merge sort:");
+        for (String w : words) System.out.print(w + " ");
+        System.out.println();
+
+        String[] words2 = {"delta", "alpha", "echo", "bravo", "charlie"};
+        quickSortStrings(words2, 0, words2.length - 1);
+        System.out.println("Strings after quick sort:");
+        for (String w : words2) System.out.print(w + " ");
+        System.out.println();
+
+        // Part 3: Employees heap and quick sort
+        Employee[] empsCopy1 = new Employee[size];
+        for (int i = 0; i < size; i++) empsCopy1[i] = employees[i];
+        heapSortEmployees(empsCopy1, size);
+        System.out.println("Employees after heap sort:");
+        for (Employee e : empsCopy1) System.out.println(e);
+
+        Employee[] empsCopy2 = new Employee[size];
+        for (int i = 0; i < size; i++) empsCopy2[i] = employees[i];
+        quickSortEmployees(empsCopy2, 0, size - 1);
+        System.out.println("Employees after quick sort:");
+        for (Employee e : empsCopy2) System.out.println(e);
+
+                // Part 4: Integers bubble + insertion sort
+        int[] nums = new int[10];
+        int nsize = 0;
+
+        // Add 8 seed values
+        int[] seed = {34, 7, 19, 2, 45, 13, 8, 21};
+        for (int i = 0; i < seed.length; i++) {
+            nums[nsize++] = seed[i];
+        }
+
+        // Sort the 8 values using bubble sort
+        bubbleSortInt(nums, nsize);
+        System.out.println("Sorted initial numbers:");
+        for (int i = 0; i < nsize; i++) System.out.print(nums[i] + " ");
+        System.out.println();
+
+        // Accept 2 more numbers from user and insert one by one using insertion sort
+        for (int i = 0; i < 2; i++) {
+            System.out.println("Enter a number to insert:");
+            int val = sc.nextInt();
+            nsize = insertInt(nums, nsize, val);
+            System.out.println("Array after inserting " + val + ":");
+            for (int j = 0; j < nsize; j++) System.out.print(nums[j] + " ");
+            System.out.println();
+        }
+
+        sc.close();
+    }
+}
+*************************************************************
+1. Display singly list in the reverse order 
+2. Delete all prime numbers from singly linked list 
+3. Reverse the singly linked list 
+4. Add a value in singly linked list before given value 
+5. In Doublylinked list add after given value
+class SinglyNode {
+    int val;
+    SinglyNode next;
+    SinglyNode(int v) { val = v; }
+}
+
+class DoublyNode {
+    int val;
+    DoublyNode prev, next;
+    DoublyNode(int v) { val = v; }
+}
+
+public class LinkedListAssignments {
+
+    // Utility: check prime
+    static boolean isPrime(int n) {
+        if (n <= 1) return false;
+        for (int i = 2; i * i <= n; i++) if (n % i == 0) return false;
+        return true;
+    }
+
+    // 1. Display singly list in reverse order (without modifying list)
+    static void displayReverse(SinglyNode head) {
+        if (head == null) return;
+        displayReverse(head.next);
+        System.out.print(head.val + " ");
+    }
+
+    // 2. Delete all prime numbers from singly linked list
+    static SinglyNode deletePrimes(SinglyNode head) {
+        while (head != null && isPrime(head.val)) head = head.next;
+        SinglyNode cur = head, prev = null;
+        while (cur != null) {
+            if (isPrime(cur.val)) {
+                prev.next = cur.next;
+            } else {
+                prev = cur;
+            }
+            cur = cur.next;
+        }
+        return head;
+    }
+
+    // 3. Reverse the singly linked list
+    static SinglyNode reverseList(SinglyNode head) {
+        SinglyNode prev = null, cur = head;
+        while (cur != null) {
+            SinglyNode next = cur.next;
+            cur.next = prev;
+            prev = cur;
+            cur = next;
+        }
+        return prev;
+    }
+
+    // 4. Add a value in singly linked list before given value
+    static SinglyNode insertBeforeValue(SinglyNode head, int target, int value) {
+        SinglyNode newNode = new SinglyNode(value);
+        if (head == null) return newNode;
+        if (head.val == target) { newNode.next = head; return newNode; }
+        SinglyNode cur = head;
+        while (cur.next != null) {
+            if (cur.next.val == target) {
+                newNode.next = cur.next;
+                cur.next = newNode;
+                break;
+            }
+            cur = cur.next;
+        }
+        return head;
+    }
+
+    // 5. In Doubly linked list add after given value
+    static DoublyNode insertAfterValue(DoublyNode head, int target, int value) {
+        DoublyNode cur = head;
+        while (cur != null) {
+            if (cur.val == target) {
+                DoublyNode nn = new DoublyNode(value);
+                nn.next = cur.next;
+                nn.prev = cur;
+                if (cur.next != null) cur.next.prev = nn;
+                cur.next = nn;
+                break;
+            }
+            cur = cur.next;
+        }
+        return head;
+    }
+
+    // Helpers to print lists
+    static void printSingly(SinglyNode head) {
+        SinglyNode cur = head;
+        while (cur != null) {
+            System.out.print(cur.val);
+            if (cur.next != null) System.out.print(" -> ");
+            cur = cur.next;
+        }
+        System.out.println();
+    }
+
+    static void printDoubly(DoublyNode head) {
+        DoublyNode cur = head;
+        while (cur != null) {
+            System.out.print(cur.val);
+            if (cur.next != null) System.out.print(" <-> ");
+            cur = cur.next;
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        // Singly linked list demo
+        SinglyNode head = new SinglyNode(11);
+        head.next = new SinglyNode(4);
+        head.next.next = new SinglyNode(5);
+        head.next.next.next = new SinglyNode(16);
+        head.next.next.next.next = new SinglyNode(7);
+
+        System.out.print("Original singly list: ");
+        printSingly(head);
+
+        System.out.print("Display reverse (without modifying): ");
+        displayReverse(head);
+        System.out.println();
+
+        head = deletePrimes(head);
+        System.out.print("After deleting primes: ");
+        printSingly(head);
+
+        head = reverseList(head);
+        System.out.print("After reversing list: ");
+        printSingly(head);
+
+        head = insertBeforeValue(head, 16, 99);
+        System.out.print("After inserting 99 before 16: ");
+        printSingly(head);
+
+        // Doubly linked list demo
+        DoublyNode d1 = new DoublyNode(1);
+        DoublyNode d2 = new DoublyNode(2);
+        DoublyNode d3 = new DoublyNode(3);
+        d1.next = d2; d2.prev = d1;
+        d2.next = d3; d3.prev = d2;
+
+        System.out.print("Original doubly list: ");
+        printDoubly(d1);
+
+        d1 = insertAfterValue(d1, 2, 99);
+        System.out.print("After inserting 99 after 2: ");
+        printDoubly(d1);
+    }
+}
+
+
+

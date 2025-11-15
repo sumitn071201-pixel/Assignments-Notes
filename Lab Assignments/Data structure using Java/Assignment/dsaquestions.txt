@@ -1,0 +1,267 @@
+import java.util.*;
+
+// 1. Write a class MyStack using array and add push, pop, displayStack, isEmpty, isFull functions 
+// in the class. Accept a string from user. use MyStack class to check whether string is palindrome or not.
+class MyStack {
+    private char[] arr;
+    private int top;
+
+    public MyStack(int size) {
+        arr = new char[size];
+        top = -1;
+    }
+
+    public boolean isEmpty() { return top == -1; }
+    public boolean isFull() { return top == arr.length - 1; }
+
+    public void push(char c) {
+        if (!isFull()) arr[++top] = c;
+    }
+
+    public char pop() {
+        if (!isEmpty()) return arr[top--];
+        return '\0';
+    }
+
+    public void displayStack() {
+        for (int i = 0; i <= top; i++) System.out.print(arr[i] + " ");
+        System.out.println();
+    }
+}
+
+// Node class for linked lists
+class Node {
+    int data;
+    Node next;
+    Node prev;
+    Node(int d) { data = d; }
+}
+
+// Tree node class
+class TreeNode {
+    int data;
+    TreeNode left, right;
+    TreeNode(int d) { data = d; }
+}
+
+public class AllInOne {
+
+    // 2. Accept n numbers from user and store it in a array, replace each element with the addition 
+    // of every other element without using subtraction operator
+    static void replaceWithSum(int[] arr) {
+        int total = 0;
+        for (int x : arr) total += x;
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = total + (~arr[i] + 1); // total - arr[i] using ~x+1
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+
+    // 3. create an array of size n. use it as a circular queue. 
+    static void circularQueueDemo(int n) {
+        Scanner sc = new Scanner(System.in);
+        int[] q = new int[n];
+        int front = 0, rear = 0, count = 0, removed = 0;
+        while (true) {
+            int num = sc.nextInt();
+            if (num == -1) break;
+            if (count == n) { // full
+                removed++;
+                front = (front + 1) % n;
+                count--;
+            }
+            q[rear] = num;
+            rear = (rear + 1) % n;
+            count++;
+        }
+        System.out.println("Removed: " + removed);
+    }
+
+    // 4. accept numbers from user and store it in a singly linked list in sorted order
+    static Node insertSorted(Node head, int val) {
+        Node newNode = new Node(val);
+        if (head == null || val < head.data) {
+            newNode.next = head;
+            return newNode;
+        }
+        Node curr = head;
+        while (curr.next != null && curr.next.data < val) curr = curr.next;
+        newNode.next = curr.next;
+        curr.next = newNode;
+        return head;
+    }
+
+    static void display(Node head) {
+        Node curr = head;
+        while (curr != null) {
+            System.out.print(curr.data + " -> ");
+            curr = curr.next;
+        }
+        System.out.println("null");
+    }
+
+    // 5. create a circular linked list. Write function to add a number in the linked list.
+    static Node insertCircular(Node head, int val, String pos, int position) {
+        Node newNode = new Node(val);
+        if (head == null) {
+            newNode.next = newNode;
+            return newNode;
+        }
+        if (pos.equals("beforeHead")) {
+            Node last = head;
+            while (last.next != head) last = last.next;
+            newNode.next = head;
+            last.next = newNode;
+            return newNode;
+        } else if (pos.equals("end")) {
+            Node last = head;
+            while (last.next != head) last = last.next;
+            last.next = newNode;
+            newNode.next = head;
+            return head;
+        } else { // at position
+            Node curr = head;
+            for (int i = 1; i < position - 1 && curr.next != head; i++) curr = curr.next;
+            newNode.next = curr.next;
+            curr.next = newNode;
+            return head;
+        }
+    }
+
+    // 6. create and display a doubly linked list. accept a position from user and display it in reverse order
+    static void reverseFromPosition(Node head, int pos) {
+        int size = 0;
+        Node curr = head;
+        while (curr != null) { size++; curr = curr.next; }
+        if (pos > size) { System.out.println("Wrong position"); return; }
+        curr = head;
+        for (int i = 1; i < pos; i++) curr = curr.next;
+        while (curr != null) { System.out.print(curr.data + " "); curr = curr.prev; }
+        System.out.println();
+    }
+
+    // 7. Accept characters from user store it in an array and sort using insertion sort
+    static void insertionSort(char[] arr) {
+        for (int i = 1; i < arr.length; i++) {
+            char key = arr[i];
+            int j = i - 1, shifts = 0;
+            while (j >= 0 && arr[j] > key) {
+                arr[j + 1] = arr[j];
+                j--; shifts++;
+            }
+            arr[j + 1] = key;
+            System.out.println("Iteration " + i + " shifts: " + shifts);
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+
+    // 8. Accept characters from user store it in an array and sort using bubble sort
+    static void bubbleSort(char[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            int swaps = 0;
+            for (int j = 0; j < arr.length - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    char temp = arr[j]; arr[j] = arr[j + 1]; arr[j + 1] = temp;
+                    swaps++;
+                }
+            }
+            System.out.println("Iteration " + (i + 1) + " swaps: " + swaps);
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+
+    // 9. Write a program to accept numbers from user and store it in binary tree. 
+    static TreeNode insert(TreeNode root, int val) {
+        if (root == null) return new TreeNode(val);
+        if (val < root.data) root.left = insert(root.left, val);
+        else root.right = insert(root.right, val);
+        return root;
+    }
+
+    static void inorder(TreeNode root) {
+        if (root != null) {
+            inorder(root.left);
+            System.out.print(root.data + " ");
+            inorder(root.right);
+        }
+    }
+
+    static boolean search(TreeNode root, int val) {
+        if (root == null) return false;
+        if (root.data == val) return true;
+        return val < root.data ? search(root.left, val) : search(root.right, val);
+    }
+
+    // 10. Write a program to accept numbers from user and store it in binary tree. 
+    // check whether the tree is binary search tree or not.
+    static boolean isBST(TreeNode root, Integer min, Integer max) {
+        if (root == null) return true;
+        if ((min != null && root.data <= min) || (max != null && root.data >= max)) return false;
+        return isBST(root.left, min, root.data) && isBST(root.right, root.data, max);
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Q1 Palindrome check
+        System.out.println("Enter string:");
+        String s = sc.nextLine();
+        MyStack st = new MyStack(s.length());
+        for (char c : s.toCharArray()) st.push(c);
+        String rev = "";
+        while (!st.isEmpty()) rev += st.pop();
+        System.out.println(s.equals(rev) ? "Palindrome" : "Not Palindrome");
+
+        // Q2 Replace with sum
+        int[] arr = {1,2,3,4,6};
+        replaceWithSum(arr);
+
+        // Q3 Circular Queue demo
+        System.out.println("Enter numbers for circular queue (end with -1):");
+        circularQueueDemo(3);
+
+        // Q4 Sorted Linked List
+        Node head = null;
+        head = insertSorted(head, 3);
+        head = insertSorted(head, 4);
+        head = insertSorted(head, 10);
+        head = insertSorted(head, 7);
+        display(head);
+
+                circ = insertCircular(circ, 8, "end", 0);
+
+        // Q6 Doubly Linked List reverse
+        Node d1 = new Node(1); Node d2 = new Node(2); Node d3 = new Node(3);
+        d1.next = d2; d2.prev = d1; d2.next = d3; d3.prev = d2;
+        reverseFromPosition(d1, 2);
+
+        // Q7 Insertion Sort
+        char[] chars1 = {'d','b','a','c'};
+        insertionSort(chars1);
+
+        // Q8 Bubble Sort
+        char[] chars2 = {'d','b','a','c'};
+        bubbleSort(chars2);
+
+        // Q9 Binary Tree insert + inorder + search
+        TreeNode root = null;
+        root = insert(root, 5);
+        root = insert(root, 3);
+        root = insert(root, 7);
+        root = insert(root, 2);
+        root = insert(root, 4);
+        root = insert(root, 6);
+        root = insert(root, 8);
+
+        System.out.print("Inorder Traversal: ");
+        inorder(root);
+        System.out.println();
+
+        System.out.println("Enter number to search in tree:");
+        int searchNum = sc.nextInt();
+        System.out.println(search(root, searchNum) ? "Found" : "Not Found");
+
+        // Q10 Check if tree is BST
+        System.out.println(isBST(root, null, null) ? "Tree is BST" : "Tree is not BST");
+    }
+}
