@@ -1,1 +1,172 @@
 apti
+
+1)	Find the least number which when divided by 8, 18 and 24 leaves remainders of 2, 12 and 18 respectively.
+1. 78		2. 70			3. 66		4. 138
+
+2)	Find the highest number such that when 64, 118 and 190 are divided by that number, we get the same remainder in each case.
+1. 3		2. 6			3. 9		4. None of these
+
+3)	Find the least number which when divided by 4, 5 and 6 will leave remainders of 2, 1 and 4 respectively.
+1. 22		2. 47			3. 46		4. 106.
+
+4)	Find the least number which when divided by 2, 4, 6 and 8 will leave remainders of 1, 3, 5 and 6 respectively.
+1. 23		2. 22			3. 47		4. Cannot be determined
+
+5)	Two lights yellow and blue glow at the rates of 3 times a minute and 4 times every two minutes respectively. Find the number of times that they will glow together in half an hour.
+1. 15		2. 30			3. 45		4. 60
+
+6)	Find the HCF of 1111…(15 times) and 1111…(25 times).
+1. 1111…(15 times)			2. 1111…(10 times)
+3. 11111					4. 11
+
+7)	Find the HCF of 75 – 1 and 75 + 1.
+1. 1		2. 2			3. 4		4. 8
+
+8)	A screen displays the alphabets A, B and C after every 4, 5 and 7 seconds respectively for one complete second. After how many seconds will the entire display glow together?
+1. 140 sec		2. 210 sec		3. 240 sec	4. 120 sec
+
+                                                      
+9)	If n = 1 + x, where x is the product of four consecutive positive integers, then which of the following is/are true?
+A. n is odd 
+B. n is prime
+C. n is a perfect square
+1. A and C only	2. A and B only	3. A only	4. None of these
+
+10) For two positive integers a and b define the function h(a,b) as the greatest common factor (gdf) of a, b. Let A be a set of n positive integers. G( A), the gcf of the elements of set A is computed by repeatedly using the function h. The minimum number of times h is required to be used to compute G is:
+1.  n/2		2. (n - 1)		3. n			4. None of these
+
+11.	How many numbers between 1 and 200 are there such that when they are divided by 2, 3, 4, 5 and 6, they leave remainders 1, 2, 3, 4 and 5 respectively?
+1. 1		2. 2			3. 3			4. 4
+
+12.   Find the greatest
+1. 21/2		2. 41/4			3. 61/6			4. 31/3
+
+13.  a, a+2, a+4 are prime numbers, then find the number of possible solutions of a.
+1. 1		2. 2			3. 3			4. 4
+
+
+14.  A number which when divided by 3, 4 and 5 leaves remainders of 1, 3 and 4 respectively. Find the remainder when the same number is divided by 60.
+1. 29		2. 59			3. 19			4. 9
+
+15. The least multiple of 7, which leaves a remainder of 4, when divided by 6, 9, 15 and 18 is:
+1.74
+2. 94
+3. 184
+4. 364
+
+16. The H.C.F. of two numbers is 11 and their L.C.M. is 7700. If one of the numbers is 275, then the other is:
+1,279
+2,283
+3.308
+4.318
+
+17. The smallest number which when reduced by 7, is divisible 12, 16, 18, 21 and 28 is:
+1.1008
+2.1015
+3.1022
+4.1032
+
+18. The greatest possible length which can be used to measure exactly the lengths 7 m, 3 m 85 cm, 12 m 95 cm is:
+1.15 cm
+2.25 cm
+3.35 cm
+4.42 cm
+
+
+
+				TEST 4
+
+1)	Two numbers A and B when divided by a certain divisor leave remainders of 12 and 14. When the sum of these two numbers is divided by the same divisor, the remainder is 9. Find the divisor.
+1. 15		2. 34		       3. 17		4. Cannot be determined
+
+2)	Find the last digit of 2365 + 3245.
+1. 0		2. 5		       3. 6		4. 8
+
+3)	Find the last digit of 7865 × 4750.
+1. 0		2. 1		       3. 2		4. 3
+
+4)	Find the remainder when 631 is divided by 7.
+1. 0		2. 1		       3. 6		4. 5
+
+5)	Find the remainder when 834 is divided by 9.
+1. 0		2. 1		       3. 6		4. 8
+
+6)	Find the remainder when 1036 is divided by 15.
+1. 0		2. 5		      3. 10		4. 12
+
+7)	Find the last two digits of 757.
+1. 07		2. 43		      3. 49		4. 01
+
+8)	Find the remainder when 1125 is divided by 7.
+1. 0   	2. 3		      3. 4		4. 6
+
+9)	Find the rightmost non zero digit in the expansion of 302720.
+1. 1		2. 3		     3. 7			4. 9
+
+10)	Find the remainder when 163 + 173 + 183 + 193 is divided by 70.
+1. 0		2. 1		     3. 35		4. 69
+
+11) The remainder when 784 is divided by 342 is :
+1. 0  		2. 1		     3. 49		4. 341
+
+12) When 2256 is divided by 17 the remainder would be
+1. 1 		2. 16 		    3. 14 		4. None of these
+
+13) A rich merchant had collected many gold coins. He did not want anybody to know about them. One day, his wife asked, “How many gold coins do we have?” After pausing a moment, he replied, “Well! If I divide the coins into two unequal numbers, then 48 times the difference between the two numbers equals the difference between the squares of the two numbers.” The wife looked puzzled. Can you help the merchant’s wife by finding out how many coins the merchant has?
+1. 96 		2. 53 		   3. 43 		4. none of these
+
+14 What is the unit digit in(795 - 358)?
+1.	0
+2.	4
+3.	6
+4.	7
+
+15, What is the remainder when (13100 + 17100) is divided by 25?
+A.	0
+B.	2
+C.	4
+D.	11
+16. N2 leaves a remainder of 1 when divided by 24. What are the possible remainders we can get if we divide N by 12?
+A.	1, 5, 7 and 11
+B.	1 and 5
+C.	5, 9, and 11
+D.	1 and 11
+17. If N = (243 + 253 + 263 + 273), then N divided by 102 leaves a remainder of?
+A.	18
+B.	12
+C.	1
+D.	0
+
+18. A number when divided by 18 leaves a remainder 7. The same number when divided by 12 leaves a remainder n. How many values can n take?
+A.	2
+B.	0
+C.	1
+D.	3
+
+19. Find the remainder when 2324 is divided by 10.
+1. 1		2. 3		3. 7		4. 9
+
+
+20.  Find the remainder when 726 is divided by 100
+1. 07		2. 49		3. 43		4. 01
+
+
+
+
+
+
+
+
+
+
+19. If the sum of two numbers is 55 and the H.C.F. and L.C.M. of these numbers are 5 and 120 respectively, then the sum of the reciprocals of the numbers is equal to:
+A) 55/601	B) 601/55
+C) 11/120	D) 120/11
+
+
+20. The L.C.M of two numbers is 495 and their H.C.F is 5. If the sum of the numbers is 100, then their difference is 
+A) 10	B) 46
+C) 70	D) 90
+
+
+
