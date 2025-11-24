@@ -1,0 +1,67 @@
+Section B
+---------------------------------------------------------------------------------------------------
+Q1.Encrypt_string(str VARCHAR(100)) is a UDF that moves each ASCII Charater by +1.
+as an example, "abc" => "bcd"
+
+drop function if exists Encrypt_string;
+deterministic
+delimiter $
+create function Encrypt_string(str VARCHAR(100))
+BEGIN
+	/*trim string to a single character*/
+	/*add +1 ASCII value to each character*/
+	/*Concat all the charachters in the same sequence after incrementing ASCII value*/
+	/*return the final incremented string*/
+end $
+delimiter ;
+---------------------------------------------------------------------------------------------------
+
+Q2. Create a Stored procedure deleteEmployee(IN empID INT) that deletes the employee from EMP table
+
+IF employee doesnt exist in the EMP table, then print a message "Employee could not be found"
+Ans.
+
+drop procedure if exists deleteEmployee;
+delimiter $
+create procedure deleteEmployee(IN EMPNO, INT)
+BEGIN
+	loop
+	if EMPNO exist then
+	DELETE FROM emp WHERE EMPNO=(IN EMPNO, INT);
+	else select "Employee could not be found" message;
+	
+end $
+delimiter ;
+
+
+Q3. Create a UDF tax_amount (income DECIMAL(10,2)) functon that returns based on slabs:
+
+5% for 2.5-5L.
+20% off 5-10L.
+30% more than 10L.
+
+Drop function if exists tax_amount;
+delimiter $
+create function tax_amount(income DECIMAL(10,2)) RETURNS INT
+deterministic
+begin
+    declare Income, Taxamt FLOAT;
+    lbl:loop
+        if Income > 250000 & Income < 500000 then
+	Taxamt = Income*0.05;
+	
+	else if Income > 500000 & Income <1000000 then
+	Taxamt = Income*0.10;
+
+	else if Income > 1000000 then
+	Taxamt = Income*0.30;
+          leave lbl;
+       end if;
+       
+    end loop lbl;
+    return(Taxamt);
+end $
+delimiter ;
+
+
+

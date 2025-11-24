@@ -1,0 +1,176 @@
+(Question query with result)
+Section A
+-----------------------------------------------------------------------------------------
+Q1.Show Department with the highest number of employees.
+ SELECT COUNT(*) DEPTNO FROM emp WHERE DEPTNO=30;
++--------+
+| DEPTNO |
++--------+
+|     12 |
++--------+
+1 row in set (0.00 sec)
+
+-----------------------------------------------------------------------------------------
+Q2. Show department name and the total salary of the employees in that department.
+SELECT DISTINCT job FROM emp;
++---------------------+
+| job                 |
++---------------------+
+| Compliance officers |
+| Public Relation     |
+| CLERK               |
+| SALESMAN            |
+| MANAGER             |
+| ANALYST             |
+| PRESIDENT           |
+| vice PRESIDENT      |
+| Network             |
++---------------------+
+9 rows in set (0.00 sec)
+mysql> SELECT JOB,SUM(SAL) FROM emp WHERE JOB = 'Compliance officers';
++---------------------+----------+
+| JOB                 | SUM(SAL) |
++---------------------+----------+
+| Compliance officers |     5250 |
++---------------------+----------+
+1 row in set (0.00 sec)
+
+mysql> SELECT JOB,SUM(SAL) FROM emp WHERE JOB = 'Public Relation';
++-----------------+----------+
+| JOB             | SUM(SAL) |
++-----------------+----------+
+| Public Relation |     3500 |
++-----------------+----------+
+1 row in set (0.00 sec)
+
+mysql> SELECT JOB,SUM(SAL) FROM emp WHERE JOB = 'CLERK';
++-------+----------+
+| JOB   | SUM(SAL) |
++-------+----------+
+| CLERK |    11000 |
++-------+----------+
+1 row in set (0.00 sec)
+
+mysql> SELECT JOB,SUM(SAL) FROM emp WHERE JOB = 'SALESMAN';
++----------+----------+
+| JOB      | SUM(SAL) |
++----------+----------+
+| SALESMAN |     9525 |
++----------+----------+
+1 row in set (0.00 sec)
+
+mysql> SELECT JOB,SUM(SAL) FROM emp WHERE JOB = 'MANAGER';
++---------+----------+
+| JOB     | SUM(SAL) |
++---------+----------+
+| MANAGER |    13675 |
++---------+----------+
+1 row in set (0.00 sec)
+
+mysql> SELECT JOB,SUM(SAL) FROM emp WHERE JOB = 'ANALYST';
++---------+----------+
+| JOB     | SUM(SAL) |
++---------+----------+
+| ANALYST |     7750 |
++---------+----------+
+1 row in set (0.00 sec)
+
+mysql> SELECT JOB,SUM(SAL) FROM emp WHERE JOB = 'PRESIDENT';
++-----------+----------+
+| JOB       | SUM(SAL) |
++-----------+----------+
+| PRESIDENT |     5000 |
++-----------+----------+
+1 row in set (0.00 sec)
+
+mysql> SELECT JOB,SUM(SAL) FROM emp WHERE JOB = 'vice PRESIDENT';
++----------------+----------+
+| JOB            | SUM(SAL) |
++----------------+----------+
+| vice PRESIDENT |     6000 |
++----------------+----------+
+1 row in set (0.00 sec)
+
+mysql> SELECT JOB,SUM(SAL) FROM emp WHERE JOB = 'Network';
++---------+----------+
+| JOB     | SUM(SAL) |
++---------+----------+
+| Network |     2000 |
++---------+----------+
+1 row in set (0.00 sec)
+
+
+
+------------------------------------------------------------------------------------
+Q3.Find Employees earning more than the average salary.
+mysql> SELECT avg(SAL) FROM emp;
++-----------+
+| avg(SAL)  |
++-----------+
+| 2123.3333 |
++-----------+
+1 row in set (0.00 sec)
+
+SELECT ENAME, SAL FROM emp r1 WHERE SAL>2123.3 ;
++---------+------+
+| ENAME   | SAL  |
++---------+------+
+| AARAV   | 3350 |
+| JONES   | 2975 |
+| BLAKE   | 2850 |
+| CLARK   | 2450 |
+| SCOTT   | 3000 |
+| KING    | 5000 |
+| FRED    | 5000 |
+| FORD    | 3000 |
+| HOFFMAN | 4150 |
+| GRASS   | 2575 |
++---------+------+
+10 rows in set (0.00 sec)
+
+
+
+-----------------------------------------------------------------------------------------
+
+
+Q4. Show employees whose salary is greater than 'ALLEN'.
+
+SELECT ENAME, SAL FROM emp WHERE ENAME= 'ALLEN'  ;
++-------+------+
+| ENAME | SAL  |
++-------+------+
+| ALLEN | 1600 |
++-------+------+
+1 row in set (0.00 sec)
+
+mysql> SELECT ENAME, SAL FROM emp WHERE SAL>1600;
++----------+------+
+| ENAME    | SAL  |
++----------+------+
+| GITA     | 1750 |
+| VRUSHALI | 1750 |
+| SHARMIN  | 1750 |
+| BANDISH  | 1750 |
+| AARAV    | 3350 |
+| THOMAS   | 1750 |
+| JONES    | 2975 |
+| BLAKE    | 2850 |
+| CLARK    | 2450 |
+| SCOTT    | 3000 |
+| KING     | 5000 |
+| FRED     | 5000 |
+| Ruhan    | 2000 |
+| FORD     | 3000 |
+| HOFFMAN  | 4150 |
+| GRASS    | 2575 |
+| NATASHA  | 1750 |
+| SANGITA  | 1750 |
+| SUPRIYA  | 1750 |
++----------+------+
+19 rows in set (0.00 sec)
+
+-----------------------------------------------------------------------------------------
+
+Q5 . Display Department number, total Salary, and average commission.
+
+
