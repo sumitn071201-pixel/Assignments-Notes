@@ -1,0 +1,3 @@
+Patch notes:
+- ShowProduct.java: forward request to showproduct.jsp and call rd.forward(request,response).
+- AddToCart.java: fix parameter name for price (use "price" instead of "Qty").
