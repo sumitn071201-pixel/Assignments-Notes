@@ -1,3 +1,7 @@
+//wap to sort the following array using quick sort int[] arr= {5,16,7,3,1,11,29,18,20,25}
+
+
+
 package com.demo.test;
 import com.demo.service.QuickSort;
 
