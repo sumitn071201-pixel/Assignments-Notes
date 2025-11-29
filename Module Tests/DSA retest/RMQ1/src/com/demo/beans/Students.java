@@ -1,0 +1,48 @@
+//consider we have student class with rollno. name and gender. implement stack of student using 
+//linked list write menu driven program to perform the below operations
+//a.push,b.pop,print stack, print all male students, print all female student, empty stack,print 
+//stack in reverse
+
+package com.demo.beans;
+
+public class Students {
+	private String stdname;
+	private int rollno;
+	private String gender;
+	public Students() {
+		super();
+		
+	}
+	public Students(String stdname, int rollno, String gender) {
+		super();
+		this.stdname = stdname;
+		this.rollno = rollno;
+		this.gender = gender;
+	}
+	
+	public String getStdname() {
+		return stdname;
+	}
+	public void setStdname(String stdname) {
+		this.stdname = stdname;
+	}
+	public int getRollno() {
+		return rollno;
+	}
+	public void setRollno(int rollno) {
+		this.rollno = rollno;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	@Override
+	public String toString() {
+		return "Students [stdname=" + stdname + ", rollno=" + rollno + ", gender=" + gender + "]";
+	}
+	
+	
+
+}

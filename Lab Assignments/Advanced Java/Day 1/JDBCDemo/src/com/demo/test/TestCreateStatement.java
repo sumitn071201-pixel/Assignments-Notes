@@ -14,8 +14,8 @@ public class TestCreateStatement {
 			//step 1
 			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
 			//step 2
-			String url ="jdbc:mysql://192.168.10.117/dac88?useSSL=false";
-			conn=DriverManager.getConnection(url,"dac88","welcome");
+			String url ="jdbc:mysql://192.168.10.117/dac95?useSSL=false";
+			conn=DriverManager.getConnection(url,"dac95","welcome");
 			if(conn!=null) {
 				System.out.println("connection done");
 			}else {

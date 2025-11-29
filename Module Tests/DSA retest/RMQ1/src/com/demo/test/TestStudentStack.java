@@ -1,0 +1,18 @@
+package com.demo.test;
+import com.demo.beans.*;
+import com.demo.service.*;
+
+public class TestStudentStack {
+	public static void main(String[] args) {
+		MyStudentStack ob=new MyStudentStack();
+		  ob.pushStudent(1);
+		  ob.pushStudent(2);
+		  ob.pushStudent(3);
+		  ob.pushStudent(4);
+		  System.out.println("-------------------");
+		  System.out.println(ob.popStudent());
+		 
+	}
+  
+  
+}

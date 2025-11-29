@@ -1,0 +1,11 @@
+package com.demo.test;
+import com.demo.service.QuickSort;
+
+public class TestQuickSort {
+		public static void main(String[] args) {
+			int[] arr= {516,7,3,1,11,29,18,20,25};
+			QuickSort.quicksort(arr, 0, arr.length-1);
+		}
+	}
+
+
