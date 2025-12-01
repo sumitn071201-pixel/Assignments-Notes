@@ -1,0 +1,92 @@
+Great choice 🎉 — Eclipse has excellent Maven integration, so you can get started quickly. Let me walk you through the process step by step:
+
+---
+
+## 🛠 Step 1: Install Eclipse with Maven support
+- Make sure you have **Eclipse IDE for Java Developers** (it comes with Maven support built-in).
+- If not, install the **M2E (Maven Integration for Eclipse)** plugin via:
+  - `Help → Eclipse Marketplace → Search "Maven Integration (M2E)" → Install`.
+
+---
+
+## 📂 Step 2: Create a new Maven project
+1. In Eclipse, go to:
+   ```
+   File → New → Project → Maven Project
+   ```
+2. Check **"Create a simple project (skip archetype selection)"** if you want a blank project, or leave it unchecked to use a template.
+3. Choose a workspace location and click **Next**.
+
+---
+
+## 🧩 Step 3: Fill in Maven coordinates
+- **Group Id**: usually your domain reversed (e.g., `com.example`).
+- **Artifact Id**: your project name (e.g., `my-first-project`).
+- **Version**: defaults to `1.0-SNAPSHOT`.
+- **Packaging**: usually `jar`.
+
+Click **Finish** — Eclipse will generate the project with a `pom.xml`.
+
+---
+
+## 📜 Step 4: Understand the `pom.xml`
+Here’s a minimal example Eclipse will generate:
+
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>my-first-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <!-- Example: JUnit for testing -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
+```
+
+---
+
+## ▶️ Step 5: Add code
+- Place your Java source files in:
+  ```
+  src/main/java
+  ```
+- Place your test files in:
+  ```
+  src/test/java
+  ```
+
+Eclipse will automatically compile and manage dependencies.
+
+---
+
+## 🚀 Step 6: Build and run
+- Right-click the project → **Run As → Maven build…**
+- Enter a goal like:
+  - `clean install` (compile, test, and package)
+  - `package` (just build the JAR)
+- The JAR will be created in the `target/` folder.
+
+---
+
+## 🌟 Step 7: Next steps
+- Add dependencies in `pom.xml` for libraries you need.
+- Explore Maven plugins (like `maven-compiler-plugin` to set Java version).
+- Use **Run As → Java Application** to run your main class directly in Eclipse.
+
+---
+
+👉 That’s it — you now have a working Maven project inside Eclipse.  
+
+Would you like me to show you how to **set the Java version (e.g., 17 or 21) in your `pom.xml`** so Eclipse compiles with the correct JDK?

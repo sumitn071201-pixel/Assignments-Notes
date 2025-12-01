@@ -16,11 +16,11 @@ public class ProductDaoImpl implements ProductDao{
 	static {
 		conn=DBUtil.getMyConnection();
 		try {
-			selproduct=conn.prepareStatement("select * from product1");
-			insproduct = conn.prepareStatement("insert into product1 values(?,?,?,?,?,?)");
-			selById=conn.prepareStatement("select * from product1 where pid=?");
-			updateById=conn.prepareStatement("update product1 set pname=?,qty=?,price=?,expdate=?,cid=? where pid=?");
-			deleteById=conn.prepareStatement("delete from product1 where pid=?");
+			selproduct=conn.prepareStatement("select * from myproduct");
+			insproduct = conn.prepareStatement("insert into myproduct values(?,?,?,?,?,?)");
+			selById=conn.prepareStatement("select * from myproduct where pid=?");
+			updateById=conn.prepareStatement("update myproduct set pname=?,qty=?,price=?,expdate=?,cid=? where pid=?");
+			deleteById=conn.prepareStatement("delete from myproduct where pid=?");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
