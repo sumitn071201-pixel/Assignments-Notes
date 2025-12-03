@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+	<class name="com.demo.beans.User" table="user11">
+		<id name="id">
+			<generator class="increment"></generator>
+		</id>
+		<property name="name" type="string"></property>
+		<property name="email" type="string"></property>
+	</class>
+
+</hibernate-mapping>

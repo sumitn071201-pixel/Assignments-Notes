@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <hibernate-mapping>
+    <class name="com.demo.beans.MyUser" >
+       <id name="uid">
+           <generator class="assigned"></generator>
+       </id>
+       <property name="uname" type="string" column="uname" not-null="true"></property>
+       <property name="email" type="string" column="email" ></property>
+    </class>
+    
+  </hibernate-mapping>
