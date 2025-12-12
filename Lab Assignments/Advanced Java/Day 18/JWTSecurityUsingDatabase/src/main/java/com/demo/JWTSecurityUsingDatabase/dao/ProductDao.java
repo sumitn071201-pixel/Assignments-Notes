@@ -1,0 +1,22 @@
+package com.demo.JWTSecurityUsingDatabase.dao;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.jpa.repository.query.Procedure;
+import org.springframework.stereotype.Repository;
+
+import com.demo.JWTSecurityUsingDatabase.beans.MyProduct;
+
+
+@Repository
+public interface ProductDao extends JpaRepository<MyProduct,Integer>{
+	@Query(value="select * from myproduct where price between :lprice and :hprice",nativeQuery = true)
+	//@Query(value="select p from MyProduct p where price between :lpr and :hpr") 
+	List<MyProduct> findByPrice(double lprice, double hprice);
+	
+	@Procedure(procedureName = "getCount")
+	public int getCount();
+
+}
