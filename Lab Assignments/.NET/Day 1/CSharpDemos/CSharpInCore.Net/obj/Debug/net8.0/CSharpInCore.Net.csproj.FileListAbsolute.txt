@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpInCore.Net\bin\Debug\net8.0\CSharpInCore.Net.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpInCore.Net\bin\Debug\net8.0\CSharpInCore.Net.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpInCore.Net\bin\Debug\net8.0\CSharpInCore.Net.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpInCore.Net\bin\Debug\net8.0\CSharpInCore.Net.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpInCore.Net\bin\Debug\net8.0\CSharpInCore.Net.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpInCore.Net\obj\Debug\net8.0\CSharpInCore.Net.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpInCore.Net\obj\Debug\net8.0\CSharpInCore.Net.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpInCore.Net\obj\Debug\net8.0\CSharpInCore.Net.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpInCore.Net\obj\Debug\net8.0\CSharpInCore.Net.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpInCore.Net\obj\Debug\net8.0\CSharpInCore.Net.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpInCore.Net\obj\Debug\net8.0\refint\CSharpInCore.Net.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpInCore.Net\obj\Debug\net8.0\CSharpInCore.Net.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpInCore.Net\obj\Debug\net8.0\CSharpInCore.Net.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpInCore.Net\obj\Debug\net8.0\ref\CSharpInCore.Net.dll
