@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\OOP_InterfaceDemo_DB\bin\Debug\net8.0\OOP_InterfaceDemo_DB.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\OOP_InterfaceDemo_DB\bin\Debug\net8.0\OOP_InterfaceDemo_DB.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\OOP_InterfaceDemo_DB\bin\Debug\net8.0\OOP_InterfaceDemo_DB.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\OOP_InterfaceDemo_DB\bin\Debug\net8.0\OOP_InterfaceDemo_DB.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\OOP_InterfaceDemo_DB\bin\Debug\net8.0\OOP_InterfaceDemo_DB.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\OOP_InterfaceDemo_DB\obj\Debug\net8.0\OOP_InterfaceDemo_DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\OOP_InterfaceDemo_DB\obj\Debug\net8.0\OOP_InterfaceDemo_DB.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\OOP_InterfaceDemo_DB\obj\Debug\net8.0\OOP_InterfaceDemo_DB.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\OOP_InterfaceDemo_DB\obj\Debug\net8.0\OOP_InterfaceDemo_DB.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\OOP_InterfaceDemo_DB\obj\Debug\net8.0\OOP_InterfaceDemo_DB.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\OOP_InterfaceDemo_DB\obj\Debug\net8.0\refint\OOP_InterfaceDemo_DB.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\OOP_InterfaceDemo_DB\obj\Debug\net8.0\OOP_InterfaceDemo_DB.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\OOP_InterfaceDemo_DB\obj\Debug\net8.0\OOP_InterfaceDemo_DB.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\OOP_InterfaceDemo_DB\obj\Debug\net8.0\ref\OOP_InterfaceDemo_DB.dll

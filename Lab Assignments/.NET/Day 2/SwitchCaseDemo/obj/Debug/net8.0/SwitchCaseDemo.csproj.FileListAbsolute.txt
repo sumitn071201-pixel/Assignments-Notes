@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\SwitchCaseDemo\bin\Debug\net8.0\SwitchCaseDemo.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\SwitchCaseDemo\bin\Debug\net8.0\SwitchCaseDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\SwitchCaseDemo\bin\Debug\net8.0\SwitchCaseDemo.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\SwitchCaseDemo\bin\Debug\net8.0\SwitchCaseDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\SwitchCaseDemo\bin\Debug\net8.0\SwitchCaseDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\SwitchCaseDemo\obj\Debug\net8.0\SwitchCaseDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\SwitchCaseDemo\obj\Debug\net8.0\SwitchCaseDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\SwitchCaseDemo\obj\Debug\net8.0\SwitchCaseDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\SwitchCaseDemo\obj\Debug\net8.0\SwitchCaseDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\SwitchCaseDemo\obj\Debug\net8.0\SwitchCaseDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\SwitchCaseDemo\obj\Debug\net8.0\refint\SwitchCaseDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\SwitchCaseDemo\obj\Debug\net8.0\SwitchCaseDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\SwitchCaseDemo\obj\Debug\net8.0\SwitchCaseDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\SwitchCaseDemo\obj\Debug\net8.0\ref\SwitchCaseDemo.dll
