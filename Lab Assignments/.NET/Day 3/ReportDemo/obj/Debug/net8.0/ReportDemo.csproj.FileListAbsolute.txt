@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReportDemo\bin\Debug\net8.0\ReportDemo.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReportDemo\bin\Debug\net8.0\ReportDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReportDemo\bin\Debug\net8.0\ReportDemo.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReportDemo\bin\Debug\net8.0\ReportDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReportDemo\bin\Debug\net8.0\ReportDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReportDemo\obj\Debug\net8.0\ReportDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReportDemo\obj\Debug\net8.0\ReportDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReportDemo\obj\Debug\net8.0\ReportDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReportDemo\obj\Debug\net8.0\ReportDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReportDemo\obj\Debug\net8.0\ReportDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReportDemo\obj\Debug\net8.0\refint\ReportDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReportDemo\obj\Debug\net8.0\ReportDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReportDemo\obj\Debug\net8.0\ReportDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReportDemo\obj\Debug\net8.0\ref\ReportDemo.dll

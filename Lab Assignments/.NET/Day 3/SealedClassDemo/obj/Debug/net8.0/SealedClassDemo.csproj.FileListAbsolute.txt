@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\SealedClassDemo\bin\Debug\net8.0\SealedClassDemo.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\SealedClassDemo\bin\Debug\net8.0\SealedClassDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\SealedClassDemo\bin\Debug\net8.0\SealedClassDemo.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\SealedClassDemo\bin\Debug\net8.0\SealedClassDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\SealedClassDemo\bin\Debug\net8.0\SealedClassDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\SealedClassDemo\obj\Debug\net8.0\SealedClassDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\SealedClassDemo\obj\Debug\net8.0\SealedClassDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\SealedClassDemo\obj\Debug\net8.0\SealedClassDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\SealedClassDemo\obj\Debug\net8.0\SealedClassDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\SealedClassDemo\obj\Debug\net8.0\SealedClassDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\SealedClassDemo\obj\Debug\net8.0\refint\SealedClassDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\SealedClassDemo\obj\Debug\net8.0\SealedClassDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\SealedClassDemo\obj\Debug\net8.0\SealedClassDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\SealedClassDemo\obj\Debug\net8.0\ref\SealedClassDemo.dll

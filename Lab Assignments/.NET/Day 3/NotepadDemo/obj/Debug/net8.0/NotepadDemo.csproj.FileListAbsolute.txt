@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\NotepadDemo\bin\Debug\net8.0\NotepadDemo.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\NotepadDemo\bin\Debug\net8.0\NotepadDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\NotepadDemo\bin\Debug\net8.0\NotepadDemo.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\NotepadDemo\bin\Debug\net8.0\NotepadDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\NotepadDemo\bin\Debug\net8.0\NotepadDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\NotepadDemo\obj\Debug\net8.0\NotepadDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\NotepadDemo\obj\Debug\net8.0\NotepadDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\NotepadDemo\obj\Debug\net8.0\NotepadDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\NotepadDemo\obj\Debug\net8.0\NotepadDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\NotepadDemo\obj\Debug\net8.0\NotepadDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\NotepadDemo\obj\Debug\net8.0\refint\NotepadDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\NotepadDemo\obj\Debug\net8.0\NotepadDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\NotepadDemo\obj\Debug\net8.0\NotepadDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\NotepadDemo\obj\Debug\net8.0\ref\NotepadDemo.dll
