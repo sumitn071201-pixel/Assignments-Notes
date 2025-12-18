@@ -1,0 +1,10 @@
+﻿namespace CMathLibDemo
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+           
+        }
+    }
+}

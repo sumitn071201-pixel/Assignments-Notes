@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\PropertiesDemo\obj\Debug\net8.0\refint\PropertiesDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\PropertiesDemo\obj\Debug\net8.0\ref\PropertiesDemo.dll
