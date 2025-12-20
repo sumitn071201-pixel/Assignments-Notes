@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\04_ConditionalStatementsDemo\obj\Debug\net8.0\04_ConditionalStatementsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\04_ConditionalStatementsDemo\obj\Debug\net8.0\04_ConditionalStatementsDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\04_ConditionalStatementsDemo\obj\Debug\net8.0\04_ConditionalStatementsDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\04_ConditionalStatementsDemo\obj\Debug\net8.0\04_ConditionalStatementsDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\04_ConditionalStatementsDemo\bin\Debug\net8.0\04_ConditionalStatementsDemo.exe
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\04_ConditionalStatementsDemo\bin\Debug\net8.0\04_ConditionalStatementsDemo.deps.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\04_ConditionalStatementsDemo\bin\Debug\net8.0\04_ConditionalStatementsDemo.runtimeconfig.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\04_ConditionalStatementsDemo\bin\Debug\net8.0\04_ConditionalStatementsDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\04_ConditionalStatementsDemo\bin\Debug\net8.0\04_ConditionalStatementsDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\04_ConditionalStatementsDemo\obj\Debug\net8.0\04_ConditionalStatementsDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\04_ConditionalStatementsDemo\obj\Debug\net8.0\refint\04_ConditionalStatementsDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\04_ConditionalStatementsDemo\obj\Debug\net8.0\04_ConditionalStatementsDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\04_ConditionalStatementsDemo\obj\Debug\net8.0\04_ConditionalStatementsDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\04_ConditionalStatementsDemo\obj\Debug\net8.0\ref\04_ConditionalStatementsDemo.dll

@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\06_SwitchCaseDemo\bin\Debug\net8.0\06_SwitchCaseDemo.exe
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\06_SwitchCaseDemo\bin\Debug\net8.0\06_SwitchCaseDemo.deps.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\06_SwitchCaseDemo\bin\Debug\net8.0\06_SwitchCaseDemo.runtimeconfig.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\06_SwitchCaseDemo\bin\Debug\net8.0\06_SwitchCaseDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\06_SwitchCaseDemo\bin\Debug\net8.0\06_SwitchCaseDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\06_SwitchCaseDemo\obj\Debug\net8.0\06_SwitchCaseDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\06_SwitchCaseDemo\obj\Debug\net8.0\06_SwitchCaseDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\06_SwitchCaseDemo\obj\Debug\net8.0\06_SwitchCaseDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\06_SwitchCaseDemo\obj\Debug\net8.0\06_SwitchCaseDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\06_SwitchCaseDemo\obj\Debug\net8.0\06_SwitchCaseDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\06_SwitchCaseDemo\obj\Debug\net8.0\refint\06_SwitchCaseDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\06_SwitchCaseDemo\obj\Debug\net8.0\06_SwitchCaseDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\06_SwitchCaseDemo\obj\Debug\net8.0\06_SwitchCaseDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\06_SwitchCaseDemo\obj\Debug\net8.0\ref\06_SwitchCaseDemo.dll

@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\05_LoopsDemo\bin\Debug\net8.0\05_LoopsDemo.exe
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\05_LoopsDemo\bin\Debug\net8.0\05_LoopsDemo.deps.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\05_LoopsDemo\bin\Debug\net8.0\05_LoopsDemo.runtimeconfig.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\05_LoopsDemo\bin\Debug\net8.0\05_LoopsDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\05_LoopsDemo\bin\Debug\net8.0\05_LoopsDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\05_LoopsDemo\obj\Debug\net8.0\05_LoopsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\05_LoopsDemo\obj\Debug\net8.0\05_LoopsDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\05_LoopsDemo\obj\Debug\net8.0\05_LoopsDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\05_LoopsDemo\obj\Debug\net8.0\05_LoopsDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\05_LoopsDemo\obj\Debug\net8.0\05_LoopsDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\05_LoopsDemo\obj\Debug\net8.0\refint\05_LoopsDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\05_LoopsDemo\obj\Debug\net8.0\05_LoopsDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\05_LoopsDemo\obj\Debug\net8.0\05_LoopsDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\05_LoopsDemo\obj\Debug\net8.0\ref\05_LoopsDemo.dll

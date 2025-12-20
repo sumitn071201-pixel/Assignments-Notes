@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\08_OOPBasicDemo\bin\Debug\net8.0\08_OOPBasicDemo.exe
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\08_OOPBasicDemo\bin\Debug\net8.0\08_OOPBasicDemo.deps.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\08_OOPBasicDemo\bin\Debug\net8.0\08_OOPBasicDemo.runtimeconfig.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\08_OOPBasicDemo\bin\Debug\net8.0\08_OOPBasicDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\08_OOPBasicDemo\bin\Debug\net8.0\08_OOPBasicDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\08_OOPBasicDemo\obj\Debug\net8.0\08_OOPBasicDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\08_OOPBasicDemo\obj\Debug\net8.0\08_OOPBasicDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\08_OOPBasicDemo\obj\Debug\net8.0\08_OOPBasicDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\08_OOPBasicDemo\obj\Debug\net8.0\08_OOPBasicDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\08_OOPBasicDemo\obj\Debug\net8.0\08_OOPBasicDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\08_OOPBasicDemo\obj\Debug\net8.0\refint\08_OOPBasicDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\08_OOPBasicDemo\obj\Debug\net8.0\08_OOPBasicDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\08_OOPBasicDemo\obj\Debug\net8.0\08_OOPBasicDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\08_OOPBasicDemo\obj\Debug\net8.0\ref\08_OOPBasicDemo.dll

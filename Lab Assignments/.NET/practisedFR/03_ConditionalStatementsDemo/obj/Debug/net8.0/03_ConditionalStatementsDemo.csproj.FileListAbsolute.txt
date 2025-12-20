@@ -1,0 +1,4 @@
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\obj\Debug\net8.0\03_ConditionalStatementsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\obj\Debug\net8.0\03_ConditionalStatementsDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\obj\Debug\net8.0\03_ConditionalStatementsDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\obj\Debug\net8.0\03_ConditionalStatementsDemo.csproj.CoreCompileInputs.cache

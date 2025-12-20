@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\07_ArrayDemo\obj\Debug\net8.0\07_ArrayDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\07_ArrayDemo\obj\Debug\net8.0\07_ArrayDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\07_ArrayDemo\obj\Debug\net8.0\07_ArrayDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\07_ArrayDemo\obj\Debug\net8.0\07_ArrayDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\07_ArrayDemo\bin\Debug\net8.0\07_ArrayDemo.exe
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\07_ArrayDemo\bin\Debug\net8.0\07_ArrayDemo.deps.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\07_ArrayDemo\bin\Debug\net8.0\07_ArrayDemo.runtimeconfig.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\07_ArrayDemo\bin\Debug\net8.0\07_ArrayDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\07_ArrayDemo\bin\Debug\net8.0\07_ArrayDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\07_ArrayDemo\obj\Debug\net8.0\07_ArrayDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\07_ArrayDemo\obj\Debug\net8.0\refint\07_ArrayDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\07_ArrayDemo\obj\Debug\net8.0\07_ArrayDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\07_ArrayDemo\obj\Debug\net8.0\07_ArrayDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\07_ArrayDemo\obj\Debug\net8.0\ref\07_ArrayDemo.dll

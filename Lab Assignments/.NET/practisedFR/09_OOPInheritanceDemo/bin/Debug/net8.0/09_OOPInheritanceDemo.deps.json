@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "09_OOPInheritanceDemo/1.0.0": {
+        "runtime": {
+          "09_OOPInheritanceDemo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "09_OOPInheritanceDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

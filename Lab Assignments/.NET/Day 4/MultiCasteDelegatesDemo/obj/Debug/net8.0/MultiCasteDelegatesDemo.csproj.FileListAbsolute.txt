@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\MultiCasteDelegatesDemo\bin\Debug\net8.0\MultiCasteDelegatesDemo.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\MultiCasteDelegatesDemo\bin\Debug\net8.0\MultiCasteDelegatesDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\MultiCasteDelegatesDemo\bin\Debug\net8.0\MultiCasteDelegatesDemo.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\MultiCasteDelegatesDemo\bin\Debug\net8.0\MultiCasteDelegatesDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\MultiCasteDelegatesDemo\bin\Debug\net8.0\MultiCasteDelegatesDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\MultiCasteDelegatesDemo\obj\Debug\net8.0\MultiCasteDelegatesDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\MultiCasteDelegatesDemo\obj\Debug\net8.0\MultiCasteDelegatesDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\MultiCasteDelegatesDemo\obj\Debug\net8.0\MultiCasteDelegatesDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\MultiCasteDelegatesDemo\obj\Debug\net8.0\MultiCasteDelegatesDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\MultiCasteDelegatesDemo\obj\Debug\net8.0\MultiCasteDelegatesDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\MultiCasteDelegatesDemo\obj\Debug\net8.0\refint\MultiCasteDelegatesDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\MultiCasteDelegatesDemo\obj\Debug\net8.0\MultiCasteDelegatesDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\MultiCasteDelegatesDemo\obj\Debug\net8.0\MultiCasteDelegatesDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\MultiCasteDelegatesDemo\obj\Debug\net8.0\ref\MultiCasteDelegatesDemo.dll

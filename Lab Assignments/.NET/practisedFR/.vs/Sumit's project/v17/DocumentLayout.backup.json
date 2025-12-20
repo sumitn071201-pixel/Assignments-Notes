@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IET\\Desktop\\0095\\.NET\\Sumit\u0027s project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB585350-36B2-42D0-BB78-B42FD821A206}|10_InheritanceDemo\\10_InheritanceDemo.csproj|c:\\users\\iet\\desktop\\0095\\.net\\sumit\u0027s project\\10_inheritancedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB585350-36B2-42D0-BB78-B42FD821A206}|10_InheritanceDemo\\10_InheritanceDemo.csproj|solutionrelative:10_inheritancedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB585350-36B2-42D0-BB78-B42FD821A206}|10_InheritanceDemo\\10_InheritanceDemo.csproj|c:\\users\\iet\\desktop\\0095\\.net\\sumit\u0027s project\\10_inheritancedemo\\demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB585350-36B2-42D0-BB78-B42FD821A206}|10_InheritanceDemo\\10_InheritanceDemo.csproj|solutionrelative:10_inheritancedemo\\demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB585350-36B2-42D0-BB78-B42FD821A206}|10_InheritanceDemo\\10_InheritanceDemo.csproj|c:\\users\\iet\\desktop\\0095\\.net\\sumit\u0027s project\\10_inheritancedemo\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB585350-36B2-42D0-BB78-B42FD821A206}|10_InheritanceDemo\\10_InheritanceDemo.csproj|solutionrelative:10_inheritancedemo\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\0095\\.NET\\Sumit\u0027s project\\10_InheritanceDemo\\Program.cs",
+              "RelativeDocumentMoniker": "10_InheritanceDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\0095\\.NET\\Sumit\u0027s project\\10_InheritanceDemo\\Program.cs",
+              "RelativeToolTip": "10_InheritanceDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T05:10:35.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\0095\\.NET\\Sumit\u0027s project\\10_InheritanceDemo\\Test.cs",
+              "RelativeDocumentMoniker": "10_InheritanceDemo\\Test.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\0095\\.NET\\Sumit\u0027s project\\10_InheritanceDemo\\Test.cs",
+              "RelativeToolTip": "10_InheritanceDemo\\Test.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T05:51:13.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Demo.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\0095\\.NET\\Sumit\u0027s project\\10_InheritanceDemo\\Demo.cs",
+              "RelativeDocumentMoniker": "10_InheritanceDemo\\Demo.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\0095\\.NET\\Sumit\u0027s project\\10_InheritanceDemo\\Demo.cs",
+              "RelativeToolTip": "10_InheritanceDemo\\Demo.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T05:49:39.143Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

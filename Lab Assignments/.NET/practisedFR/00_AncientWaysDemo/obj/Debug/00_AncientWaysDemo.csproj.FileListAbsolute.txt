@@ -1,0 +1,7 @@
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\00_AncientWaysDemo\bin\Debug\00_AncientWaysDemo.exe.config
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\00_AncientWaysDemo\bin\Debug\00_AncientWaysDemo.exe
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\00_AncientWaysDemo\bin\Debug\00_AncientWaysDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\00_AncientWaysDemo\obj\Debug\00_AncientWaysDemo.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\00_AncientWaysDemo\obj\Debug\00_AncientWaysDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\00_AncientWaysDemo\obj\Debug\00_AncientWaysDemo.exe
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\00_AncientWaysDemo\obj\Debug\00_AncientWaysDemo.pdb

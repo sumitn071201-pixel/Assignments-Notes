@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\01_BasicCore.NETDemo\bin\Debug\net8.0\01_BasicCore.NETDemo.exe
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\01_BasicCore.NETDemo\bin\Debug\net8.0\01_BasicCore.NETDemo.deps.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\01_BasicCore.NETDemo\bin\Debug\net8.0\01_BasicCore.NETDemo.runtimeconfig.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\01_BasicCore.NETDemo\bin\Debug\net8.0\01_BasicCore.NETDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\01_BasicCore.NETDemo\bin\Debug\net8.0\01_BasicCore.NETDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\01_BasicCore.NETDemo\obj\Debug\net8.0\01_BasicCore.NETDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\01_BasicCore.NETDemo\obj\Debug\net8.0\01_BasicCore.NETDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\01_BasicCore.NETDemo\obj\Debug\net8.0\01_BasicCore.NETDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\01_BasicCore.NETDemo\obj\Debug\net8.0\01_BasicCore.NETDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\01_BasicCore.NETDemo\obj\Debug\net8.0\01_BasicCore.NETDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\01_BasicCore.NETDemo\obj\Debug\net8.0\refint\01_BasicCore.NETDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\01_BasicCore.NETDemo\obj\Debug\net8.0\01_BasicCore.NETDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\01_BasicCore.NETDemo\obj\Debug\net8.0\01_BasicCore.NETDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\01_BasicCore.NETDemo\obj\Debug\net8.0\ref\01_BasicCore.NETDemo.dll

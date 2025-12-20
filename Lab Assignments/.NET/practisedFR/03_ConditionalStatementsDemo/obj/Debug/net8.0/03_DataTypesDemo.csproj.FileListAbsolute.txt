@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\bin\Debug\net8.0\03_DataTypesDemo.exe
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\bin\Debug\net8.0\03_DataTypesDemo.deps.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\bin\Debug\net8.0\03_DataTypesDemo.runtimeconfig.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\bin\Debug\net8.0\03_DataTypesDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\bin\Debug\net8.0\03_DataTypesDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\obj\Debug\net8.0\03_DataTypesDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\obj\Debug\net8.0\03_DataTypesDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\obj\Debug\net8.0\03_DataTypesDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\obj\Debug\net8.0\03_DataTypesDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\obj\Debug\net8.0\03_DataTypesDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\obj\Debug\net8.0\refint\03_DataTypesDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\obj\Debug\net8.0\03_DataTypesDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\obj\Debug\net8.0\03_DataTypesDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\03_ConditionalStatementsDemo\obj\Debug\net8.0\ref\03_DataTypesDemo.dll

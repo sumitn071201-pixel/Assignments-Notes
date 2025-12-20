@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\09_OOPInheritanceDemo\obj\Debug\net8.0\09_OOPInheritanceDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\09_OOPInheritanceDemo\obj\Debug\net8.0\09_OOPInheritanceDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\09_OOPInheritanceDemo\obj\Debug\net8.0\09_OOPInheritanceDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\09_OOPInheritanceDemo\obj\Debug\net8.0\09_OOPInheritanceDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\09_OOPInheritanceDemo\bin\Debug\net8.0\09_OOPInheritanceDemo.exe
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\09_OOPInheritanceDemo\bin\Debug\net8.0\09_OOPInheritanceDemo.deps.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\09_OOPInheritanceDemo\bin\Debug\net8.0\09_OOPInheritanceDemo.runtimeconfig.json
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\09_OOPInheritanceDemo\bin\Debug\net8.0\09_OOPInheritanceDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\09_OOPInheritanceDemo\bin\Debug\net8.0\09_OOPInheritanceDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\09_OOPInheritanceDemo\obj\Debug\net8.0\09_OOPInheritanceDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\09_OOPInheritanceDemo\obj\Debug\net8.0\refint\09_OOPInheritanceDemo.dll
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\09_OOPInheritanceDemo\obj\Debug\net8.0\09_OOPInheritanceDemo.pdb
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\09_OOPInheritanceDemo\obj\Debug\net8.0\09_OOPInheritanceDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\0095\.NET\Sumit's project\09_OOPInheritanceDemo\obj\Debug\net8.0\ref\09_OOPInheritanceDemo.dll
