@@ -1,0 +1,11 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\My_MathDemo\bin\Debug\net8.0\My_MathDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\My_MathDemo\bin\Debug\net8.0\My_MathDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\My_MathDemo\bin\Debug\net8.0\My_MathDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\My_MathDemo\obj\Debug\net8.0\My_MathDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\My_MathDemo\obj\Debug\net8.0\My_MathDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\My_MathDemo\obj\Debug\net8.0\My_MathDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\My_MathDemo\obj\Debug\net8.0\My_MathDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\My_MathDemo\obj\Debug\net8.0\My_MathDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\My_MathDemo\obj\Debug\net8.0\refint\My_MathDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\My_MathDemo\obj\Debug\net8.0\My_MathDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\My_MathDemo\obj\Debug\net8.0\ref\My_MathDemo.dll

@@ -1,0 +1,4 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\BinarySerializationDemo\obj\Debug\net8.0\BinarySerializationDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\BinarySerializationDemo\obj\Debug\net8.0\BinarySerializationDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\BinarySerializationDemo\obj\Debug\net8.0\BinarySerializationDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\BinarySerializationDemo\obj\Debug\net8.0\BinarySerializationDemo.csproj.CoreCompileInputs.cache

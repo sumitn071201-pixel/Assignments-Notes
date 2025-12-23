@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\FileIODemo\obj\Debug\net8.0\FileIODemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\FileIODemo\obj\Debug\net8.0\FileIODemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\FileIODemo\obj\Debug\net8.0\FileIODemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\FileIODemo\obj\Debug\net8.0\FileIODemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\FileIODemo\bin\Debug\net8.0\FileIODemo.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\FileIODemo\bin\Debug\net8.0\FileIODemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\FileIODemo\bin\Debug\net8.0\FileIODemo.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\FileIODemo\bin\Debug\net8.0\FileIODemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\FileIODemo\bin\Debug\net8.0\FileIODemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\FileIODemo\obj\Debug\net8.0\FileIODemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\FileIODemo\obj\Debug\net8.0\refint\FileIODemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\FileIODemo\obj\Debug\net8.0\FileIODemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\FileIODemo\obj\Debug\net8.0\FileIODemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\FileIODemo\obj\Debug\net8.0\ref\FileIODemo.dll

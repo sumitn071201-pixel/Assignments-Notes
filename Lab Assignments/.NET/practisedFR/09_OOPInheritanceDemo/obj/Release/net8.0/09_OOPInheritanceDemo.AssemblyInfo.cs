@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("09_OOPInheritanceDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a3dcf08ed56443126989e1c74505515defb5b55")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f23490ee498442a68bf90c507b7da3f5103758cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("09_OOPInheritanceDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("09_OOPInheritanceDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

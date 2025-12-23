@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReflectionDemo\obj\Debug\net8.0\ReflectionDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReflectionDemo\obj\Debug\net8.0\ReflectionDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReflectionDemo\obj\Debug\net8.0\ReflectionDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReflectionDemo\obj\Debug\net8.0\ReflectionDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReflectionDemo\bin\Debug\net8.0\ReflectionDemo.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReflectionDemo\bin\Debug\net8.0\ReflectionDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReflectionDemo\bin\Debug\net8.0\ReflectionDemo.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReflectionDemo\bin\Debug\net8.0\ReflectionDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReflectionDemo\bin\Debug\net8.0\ReflectionDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReflectionDemo\obj\Debug\net8.0\ReflectionDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReflectionDemo\obj\Debug\net8.0\refint\ReflectionDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReflectionDemo\obj\Debug\net8.0\ReflectionDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReflectionDemo\obj\Debug\net8.0\ReflectionDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ReflectionDemo\obj\Debug\net8.0\ref\ReflectionDemo.dll

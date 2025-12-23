@@ -1,0 +1,17 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\obj\Debug\net8.0\EmpLibDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\obj\Debug\net8.0\EmpLibDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\obj\Debug\net8.0\EmpLibDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\obj\Debug\net8.0\EmpLibDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\bin\Debug\net8.0\EmpLibDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\bin\Debug\net8.0\EmpLibDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\bin\Debug\net8.0\EmpLibDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\bin\Debug\net8.0\BVSAttributeDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\bin\Debug\net8.0\CustomAttributesDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\bin\Debug\net8.0\BVSAttributeDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\bin\Debug\net8.0\CustomAttributesDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\obj\Debug\net8.0\EmpLibDemo.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\obj\Debug\net8.0\EmpLibDemo.csproj.Up2Date
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\obj\Debug\net8.0\EmpLibDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\obj\Debug\net8.0\refint\EmpLibDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\obj\Debug\net8.0\EmpLibDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\EmpLibDemo\obj\Debug\net8.0\ref\EmpLibDemo.dll

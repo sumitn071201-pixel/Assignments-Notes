@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\GenericCollectionsDemo\bin\Debug\net8.0\GenericCollectionsDemo.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\GenericCollectionsDemo\bin\Debug\net8.0\GenericCollectionsDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\GenericCollectionsDemo\bin\Debug\net8.0\GenericCollectionsDemo.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\GenericCollectionsDemo\bin\Debug\net8.0\GenericCollectionsDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\GenericCollectionsDemo\bin\Debug\net8.0\GenericCollectionsDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\GenericCollectionsDemo\obj\Debug\net8.0\GenericCollectionsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\GenericCollectionsDemo\obj\Debug\net8.0\GenericCollectionsDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\GenericCollectionsDemo\obj\Debug\net8.0\GenericCollectionsDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\GenericCollectionsDemo\obj\Debug\net8.0\GenericCollectionsDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\GenericCollectionsDemo\obj\Debug\net8.0\GenericCollectionsDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\GenericCollectionsDemo\obj\Debug\net8.0\refint\GenericCollectionsDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\GenericCollectionsDemo\obj\Debug\net8.0\GenericCollectionsDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\GenericCollectionsDemo\obj\Debug\net8.0\GenericCollectionsDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\GenericCollectionsDemo\obj\Debug\net8.0\ref\GenericCollectionsDemo.dll

@@ -1,0 +1,11 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\CustomAttributesDemo\obj\Debug\net8.0\CustomAttributesDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\CustomAttributesDemo\obj\Debug\net8.0\CustomAttributesDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\CustomAttributesDemo\obj\Debug\net8.0\CustomAttributesDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\CustomAttributesDemo\obj\Debug\net8.0\CustomAttributesDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\CustomAttributesDemo\bin\Debug\net8.0\CustomAttributesDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\CustomAttributesDemo\bin\Debug\net8.0\CustomAttributesDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\CustomAttributesDemo\bin\Debug\net8.0\CustomAttributesDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\CustomAttributesDemo\obj\Debug\net8.0\CustomAttributesDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\CustomAttributesDemo\obj\Debug\net8.0\refint\CustomAttributesDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\CustomAttributesDemo\obj\Debug\net8.0\CustomAttributesDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\CustomAttributesDemo\obj\Debug\net8.0\ref\CustomAttributesDemo.dll

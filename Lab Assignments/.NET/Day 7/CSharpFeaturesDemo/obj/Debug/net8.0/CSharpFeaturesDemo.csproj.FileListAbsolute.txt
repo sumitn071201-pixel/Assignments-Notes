@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo\obj\Debug\net8.0\CSharpFeaturesDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo\obj\Debug\net8.0\CSharpFeaturesDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo\obj\Debug\net8.0\CSharpFeaturesDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo\obj\Debug\net8.0\CSharpFeaturesDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo\bin\Debug\net8.0\CSharpFeaturesDemo.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo\bin\Debug\net8.0\CSharpFeaturesDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo\bin\Debug\net8.0\CSharpFeaturesDemo.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo\bin\Debug\net8.0\CSharpFeaturesDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo\bin\Debug\net8.0\CSharpFeaturesDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo\obj\Debug\net8.0\CSharpFeaturesDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo\obj\Debug\net8.0\refint\CSharpFeaturesDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo\obj\Debug\net8.0\CSharpFeaturesDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo\obj\Debug\net8.0\CSharpFeaturesDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo\obj\Debug\net8.0\ref\CSharpFeaturesDemo.dll

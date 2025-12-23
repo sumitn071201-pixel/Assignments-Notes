@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\ObserverPatternDemo\bin\Debug\net8.0\ObserverPatternDemo.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\ObserverPatternDemo\bin\Debug\net8.0\ObserverPatternDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\ObserverPatternDemo\bin\Debug\net8.0\ObserverPatternDemo.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\ObserverPatternDemo\bin\Debug\net8.0\ObserverPatternDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ObserverPatternDemo\bin\Debug\net8.0\ObserverPatternDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\ObserverPatternDemo\obj\Debug\net8.0\ObserverPatternDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\ObserverPatternDemo\obj\Debug\net8.0\ObserverPatternDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ObserverPatternDemo\obj\Debug\net8.0\ObserverPatternDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\ObserverPatternDemo\obj\Debug\net8.0\ObserverPatternDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ObserverPatternDemo\obj\Debug\net8.0\ObserverPatternDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ObserverPatternDemo\obj\Debug\net8.0\refint\ObserverPatternDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ObserverPatternDemo\obj\Debug\net8.0\ObserverPatternDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\ObserverPatternDemo\obj\Debug\net8.0\ObserverPatternDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ObserverPatternDemo\obj\Debug\net8.0\ref\ObserverPatternDemo.dll

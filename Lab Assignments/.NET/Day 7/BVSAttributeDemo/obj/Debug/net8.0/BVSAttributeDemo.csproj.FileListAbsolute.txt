@@ -1,0 +1,11 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\BVSAttributeDemo\bin\Debug\net8.0\BVSAttributeDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\BVSAttributeDemo\bin\Debug\net8.0\BVSAttributeDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\BVSAttributeDemo\bin\Debug\net8.0\BVSAttributeDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\BVSAttributeDemo\obj\Debug\net8.0\BVSAttributeDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\BVSAttributeDemo\obj\Debug\net8.0\BVSAttributeDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\BVSAttributeDemo\obj\Debug\net8.0\BVSAttributeDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\BVSAttributeDemo\obj\Debug\net8.0\BVSAttributeDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\BVSAttributeDemo\obj\Debug\net8.0\BVSAttributeDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\BVSAttributeDemo\obj\Debug\net8.0\refint\BVSAttributeDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\BVSAttributeDemo\obj\Debug\net8.0\BVSAttributeDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\BVSAttributeDemo\obj\Debug\net8.0\ref\BVSAttributeDemo.dll
