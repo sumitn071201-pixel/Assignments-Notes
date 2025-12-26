@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo1\bin\Debug\net8.0\CSharpFeaturesDemo1.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo1\bin\Debug\net8.0\CSharpFeaturesDemo1.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo1\bin\Debug\net8.0\CSharpFeaturesDemo1.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo1\bin\Debug\net8.0\CSharpFeaturesDemo1.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo1\bin\Debug\net8.0\CSharpFeaturesDemo1.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo1\obj\Debug\net8.0\CSharpFeaturesDemo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo1\obj\Debug\net8.0\CSharpFeaturesDemo1.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo1\obj\Debug\net8.0\CSharpFeaturesDemo1.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo1\obj\Debug\net8.0\CSharpFeaturesDemo1.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo1\obj\Debug\net8.0\CSharpFeaturesDemo1.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo1\obj\Debug\net8.0\refint\CSharpFeaturesDemo1.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo1\obj\Debug\net8.0\CSharpFeaturesDemo1.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo1\obj\Debug\net8.0\CSharpFeaturesDemo1.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\CSharpFeaturesDemo1\obj\Debug\net8.0\ref\CSharpFeaturesDemo1.dll
