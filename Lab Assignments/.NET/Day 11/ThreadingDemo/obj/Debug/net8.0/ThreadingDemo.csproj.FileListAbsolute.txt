@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo\bin\Debug\net8.0\ThreadingDemo.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo\bin\Debug\net8.0\ThreadingDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo\bin\Debug\net8.0\ThreadingDemo.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo\bin\Debug\net8.0\ThreadingDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo\bin\Debug\net8.0\ThreadingDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo\obj\Debug\net8.0\ThreadingDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo\obj\Debug\net8.0\ThreadingDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo\obj\Debug\net8.0\ThreadingDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo\obj\Debug\net8.0\ThreadingDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo\obj\Debug\net8.0\ThreadingDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo\obj\Debug\net8.0\refint\ThreadingDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo\obj\Debug\net8.0\ThreadingDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo\obj\Debug\net8.0\ThreadingDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo\obj\Debug\net8.0\ref\ThreadingDemo.dll

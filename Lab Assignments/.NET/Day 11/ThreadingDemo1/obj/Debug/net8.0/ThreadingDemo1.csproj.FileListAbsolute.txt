@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo1\bin\Debug\net8.0\ThreadingDemo1.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo1\bin\Debug\net8.0\ThreadingDemo1.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo1\bin\Debug\net8.0\ThreadingDemo1.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo1\bin\Debug\net8.0\ThreadingDemo1.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo1\bin\Debug\net8.0\ThreadingDemo1.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo1\obj\Debug\net8.0\ThreadingDemo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo1\obj\Debug\net8.0\ThreadingDemo1.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo1\obj\Debug\net8.0\ThreadingDemo1.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo1\obj\Debug\net8.0\ThreadingDemo1.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo1\obj\Debug\net8.0\ThreadingDemo1.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo1\obj\Debug\net8.0\refint\ThreadingDemo1.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo1\obj\Debug\net8.0\ThreadingDemo1.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo1\obj\Debug\net8.0\ThreadingDemo1.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\ThreadingDemo1\obj\Debug\net8.0\ref\ThreadingDemo1.dll

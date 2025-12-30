@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\.NET\CSharpDemos\GCDemo\bin\Debug\net8.0\GCDemo.exe
+C:\Users\IET\Desktop\.NET\CSharpDemos\GCDemo\bin\Debug\net8.0\GCDemo.deps.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\GCDemo\bin\Debug\net8.0\GCDemo.runtimeconfig.json
+C:\Users\IET\Desktop\.NET\CSharpDemos\GCDemo\bin\Debug\net8.0\GCDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\GCDemo\bin\Debug\net8.0\GCDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\GCDemo\obj\Debug\net8.0\GCDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\.NET\CSharpDemos\GCDemo\obj\Debug\net8.0\GCDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\GCDemo\obj\Debug\net8.0\GCDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\.NET\CSharpDemos\GCDemo\obj\Debug\net8.0\GCDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\GCDemo\obj\Debug\net8.0\GCDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\GCDemo\obj\Debug\net8.0\refint\GCDemo.dll
+C:\Users\IET\Desktop\.NET\CSharpDemos\GCDemo\obj\Debug\net8.0\GCDemo.pdb
+C:\Users\IET\Desktop\.NET\CSharpDemos\GCDemo\obj\Debug\net8.0\GCDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\.NET\CSharpDemos\GCDemo\obj\Debug\net8.0\ref\GCDemo.dll
