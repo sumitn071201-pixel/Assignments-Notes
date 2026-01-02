@@ -1,0 +1,119 @@
+[
+  {
+    "ContainingType": "EF_Filters_Sessions_WebAPIDemo.Controllers.EmpsController",
+    "Method": "GetEmps",
+    "RelativePath": "api/Emps",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[EF_Filters_Sessions_WebAPIDemo.Models.Emp, EF_Filters_Sessions_WebAPIDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EF_Filters_Sessions_WebAPIDemo.Controllers.EmpsController",
+    "Method": "Post",
+    "RelativePath": "api/Emps",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "EF_Filters_Sessions_WebAPIDemo.Models.Emp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EF_Filters_Sessions_WebAPIDemo.Controllers.EmpsController",
+    "Method": "Get",
+    "RelativePath": "api/Emps/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EF_Filters_Sessions_WebAPIDemo.Models.Emp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EF_Filters_Sessions_WebAPIDemo.Controllers.EmpsController",
+    "Method": "Put",
+    "RelativePath": "api/Emps/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "entity",
+        "Type": "EF_Filters_Sessions_WebAPIDemo.Models.Emp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EF_Filters_Sessions_WebAPIDemo.Controllers.EmpsController",
+    "Method": "Delete",
+    "RelativePath": "api/Emps/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
