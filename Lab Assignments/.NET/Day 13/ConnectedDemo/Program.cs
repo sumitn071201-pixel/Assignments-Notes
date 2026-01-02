@@ -1,3 +1,5 @@
+using ConnectedDemo.DAL;
+
 namespace ConnectedDemo
 {
     public class Program
@@ -8,6 +10,7 @@ namespace ConnectedDemo
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddScoped<IETDBContext>();
 
             var app = builder.Build();
 
