@@ -11,3 +11,250 @@
 //2.Delete Movie-- accept movieid, and delete the movie from the set
 //3.Display all movie of given type-- accept type
 //4.exit
+
+
+beamn
+Movie.java
+package beans;
+
+public class Movie {
+
+    protected int movieId;
+    protected String movieName;
+    protected int duration;
+    protected String actor;
+    protected String actress;
+    protected String releaseDate;
+    protected String type;
+
+    public Movie(int movieId, String movieName, int duration,
+                 String actor, String actress, String releaseDate, String type) {
+
+        this.movieId = movieId;
+        this.movieName = movieName;
+        this.duration = duration;
+        this.actor = actor;
+        this.actress = actress;
+        this.releaseDate = releaseDate;
+        this.type = type;
+    }
+
+    public int getMovieId() {
+        return movieId;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    @Override
+    public int hashCode() {
+        return movieId;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Movie m = (Movie) obj;
+        return this.movieId == m.movieId;
+    }
+
+    public void display() {
+        System.out.println(movieId + " " + movieName + " " + type);
+    }
+}
+
+
+ShortMovie.java
+package beans;
+
+public class ShortMovie extends Movie {
+
+    private String topic;
+
+    public ShortMovie(int movieId, String movieName, int duration,
+                      String actor, String actress, String releaseDate,
+                      String topic) {
+
+        super(movieId, movieName, duration, actor, actress, releaseDate, "ShortMovie");
+        this.topic = topic;
+    }
+
+    @Override
+    public void display() {
+        super.display();
+        System.out.println("Topic: " + topic);
+    }
+}
+
+BollywoodMovie.java
+package beans;
+
+public class BollywoodMovie extends Movie {
+
+    private int noOfSongs;
+    private String singer;
+
+    public BollywoodMovie(int movieId, String movieName, int duration,
+                           String actor, String actress, String releaseDate,
+                           int noOfSongs, String singer) {
+
+        super(movieId, movieName, duration, actor, actress, releaseDate, "Bollywood");
+        this.noOfSongs = noOfSongs;
+        this.singer = singer;
+    }
+
+    @Override
+    public void display() {
+        super.display();
+        System.out.println("Songs: " + noOfSongs + " Singer: " + singer);
+    }
+}
+
+
+dao
+MovieDao.java
+package dao;
+
+import java.util.HashSet;
+import beans.Movie;
+
+public class MovieDao {
+
+    private HashSet<Movie> movieSet = new HashSet<>();
+
+    public boolean addMovie(Movie movie) {
+        return movieSet.add(movie);
+    }
+
+    public boolean deleteMovie(int movieId) {
+        return movieSet.removeIf(m -> m.getMovieId() == movieId);
+    }
+
+    public HashSet<Movie> getAllMovies() {
+        return movieSet;
+    }
+}
+
+
+service
+MovieService.java
+package service;
+
+import dao.MovieDao;
+import beans.Movie;
+
+public class MovieService {
+
+    MovieDao dao = new MovieDao();
+
+    public void addMovie(Movie movie) {
+        if (dao.addMovie(movie)) {
+            System.out.println("Movie Added Successfully");
+        } else {
+            System.out.println("Movie ID already exists");
+        }
+    }
+
+    public void deleteMovie(int id) {
+        if (dao.deleteMovie(id)) {
+            System.out.println("Movie Deleted");
+        } else {
+            System.out.println("Movie Not Found");
+        }
+    }
+
+    public void displayByType(String type) {
+        for (Movie m : dao.getAllMovies()) {
+            if (m.getType().equalsIgnoreCase(type)) {
+                m.display();
+            }
+        }
+    }
+}
+
+Test
+MovieTest.java
+package test;
+
+import java.util.Scanner;
+import service.MovieService;
+import beans.*;
+
+public class MovieTest {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        MovieService service = new MovieService();
+
+        int choice;
+
+        do {
+            System.out.println("\n1.Add Movie");
+            System.out.println("2.Delete Movie");
+            System.out.println("3.Display Movie By Type");
+            System.out.println("4.Exit");
+
+            choice = sc.nextInt();
+
+            switch (choice) {
+
+                case 1:
+                    System.out.println("Enter Movie Type (1.Short 2.Bollywood)");
+                    int type = sc.nextInt();
+
+                    System.out.println("Enter Movie ID:");
+                    int id = sc.nextInt();
+                    sc.nextLine();
+
+                    System.out.println("Enter Movie Name:");
+                    String name = sc.nextLine();
+
+                    System.out.println("Enter Duration:");
+                    int duration = sc.nextInt();
+                    sc.nextLine();
+
+                    System.out.println("Enter Actor:");
+                    String actor = sc.nextLine();
+
+                    System.out.println("Enter Actress:");
+                    String actress = sc.nextLine();
+
+                    System.out.println("Enter Release Date:");
+                    String date = sc.nextLine();
+
+                    if (type == 1) {
+                        System.out.println("Enter Topic:");
+                        String topic = sc.nextLine();
+                        service.addMovie(new ShortMovie(id, name, duration, actor, actress, date, topic));
+                    } else {
+                        System.out.println("Enter No of Songs:");
+                        int songs = sc.nextInt();
+                        sc.nextLine();
+
+                        System.out.println("Enter Singer:");
+                        String singer = sc.nextLine();
+                        service.addMovie(new BollywoodMovie(id, name, duration, actor, actress, date, songs, singer));
+                    }
+                    break;
+
+                case 2:
+                    System.out.println("Enter Movie ID:");
+                    service.deleteMovie(sc.nextInt());
+                    break;
+
+                case 3:
+                    System.out.println("Enter Type:");
+                    service.displayByType(sc.next());
+                    break;
+
+                case 4:
+                    System.out.println("Thank You!");
+                    break;
+            }
+
+        } while (choice != 4);
+
+        sc.close();
+    }
+}
