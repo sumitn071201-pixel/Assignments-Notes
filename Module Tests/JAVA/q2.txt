@@ -4,3 +4,57 @@ Find all strings which start with A, store
 them in list2(Note use filter function to 
 find the strings) write all strings from list2
  in a file data.txt, one string on each line
+
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.stream.Collectors;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class StringFilterDemo {
+
+    public static void main(String[] args) {
+
+        // Step 1: Create Scanner object
+        Scanner sc = new Scanner(System.in);
+
+        // Step 2: Create ArrayList to store strings
+        ArrayList<String> list1 = new ArrayList<>();
+
+        // Step 3: Accept number of strings
+        System.out.println("Enter number of strings:");
+        int n = sc.nextInt();
+        sc.nextLine(); // consume newline
+
+        // Step 4: Take strings from user
+        for (int i = 0; i < n; i++) {
+            System.out.println("Enter string " + (i + 1) + ":");
+            String str = sc.nextLine();
+            list1.add(str);
+        }
+
+        // Step 5: Filter strings starting with 'A'
+        List<String> list2 = list1.stream()
+                .filter(s -> s.startsWith("A"))
+                .collect(Collectors.toList());
+
+        // Step 6: Write filtered strings into file
+        try {
+            FileWriter fw = new FileWriter("data.txt");
+
+            for (String s : list2) {
+                fw.write(s + "\n");
+            }
+
+            fw.close();
+            System.out.println("Data written to file successfully!");
+
+        } catch (IOException e) {
+            System.out.println("Error while writing file");
+        }
+
+        sc.close();
+    }
+}
