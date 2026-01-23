@@ -1,0 +1,124 @@
+Moves each ASCII character by +1
+Example: abc → bcd
+DELIMITER $$
+
+CREATE FUNCTION Encrypt_string(str VARCHAR(100))
+RETURNS VARCHAR(100)
+DETERMINISTIC
+BEGIN
+    DECLARE i INT DEFAULT 1;
+    DECLARE len INT;
+    DECLARE result VARCHAR(100) DEFAULT '';
+
+    SET len = LENGTH(str);
+
+    WHILE i <= len DO
+        SET result = CONCAT(
+            result,
+            CHAR(ASCII(SUBSTRING(str, i, 1)) + 1)
+        );
+        SET i = i + 1;
+    END WHILE;
+
+    RETURN result;
+END$$
+
+DELIMITER ;
+
+
+
+Q2  Deletes an employee from EMP table
+DELIMITER $$
+
+CREATE PROCEDURE deleteEmployee(IN empID INT)
+BEGIN
+    DELETE FROM EMP
+    WHERE empno = empID;
+END$$
+
+DELIMITER ;
+
+
+
+Tax slabs:
+5% for 2.5L – 5L
+20% for 5L – 10L
+30% above 10L
+
+DELIMITER $$
+
+CREATE FUNCTION tax_amount(income DECIMAL(10,2))
+RETURNS DECIMAL(10,2)
+DETERMINISTIC
+BEGIN
+    DECLARE tax DECIMAL(10,2);
+
+    IF income < 250000 THEN
+        SET tax = 0;
+    ELSEIF income <= 500000 THEN
+        SET tax = income * 0.05;
+    ELSEIF income <= 1000000 THEN
+        SET tax = income * 0.20;
+    ELSE
+        SET tax = income * 0.30;
+    END IF;
+
+    RETURN tax;
+END$$
+
+DELIMITER ;
+
+Show employees whose salary is greater than ALLEN
+SELECT *
+FROM EMP
+WHERE sal > (
+    SELECT sal
+    FROM EMP
+    WHERE ename = 'ALLEN'
+);
+
+
+
+
+ Display Department number, Total Salary, Average Commission
+
+SELECT deptno,
+       SUM(sal) AS total_salary,
+       AVG(comm) AS avg_commission
+FROM EMP
+GROUP BY deptno;
+
+Find employees earning more than the average salary
+SELECT *
+FROM EMP
+WHERE sal > (
+    SELECT AVG(sal)
+    FROM EMP
+);
+
+
+
+Show department name and total salary of employees
+SELECT d.dname,
+       SUM(e.sal) AS total_salary
+FROM EMP e
+JOIN DEPT d ON e.deptno = d.deptno
+GROUP BY d.dname;
+
+
+Show department with the highest number of employees
+SELECT deptno, COUNT(*) AS emp_count
+FROM EMP
+GROUP BY deptno
+ORDER BY emp_count DESC
+LIMIT 1;
+
+
+
+
+SHOW CREATE FUNCTION Encrypt_string;
+SHOW CREATE FUNCTION tax_amount;
+SHOW CREATE PROCEDURE deleteEmployee;
+
+
+
